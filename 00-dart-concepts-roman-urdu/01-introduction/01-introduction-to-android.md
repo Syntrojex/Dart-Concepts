@@ -52,3 +52,15 @@ yehi naam le liya.
 > touchscreen mobile devices jaise smartphones aur tablets ke liye.
 
 ---
+
+## Zaroori Alfaaz (Key Terms)
+
+| Term | Matlab |
+|------|--------|
+| **Android** | Mobile device ka "dimaag" (Operating System) |
+| **Google** | Wo company jo Android ki malik hai aur ise develop karti hai |
+| **Flutter** | Ek framework/tool jisse Dart language use karke Android (aur doosre platforms) ke liye apps banayi jati hain |
+| **Play Store** | Google ki official dukaan jahan se Android apps distribute aur download hoti hain |
+| **Kernel** | Android ka core hissa (Linux kernel par based) jo hardware resources manage karta hai |
+
+---
