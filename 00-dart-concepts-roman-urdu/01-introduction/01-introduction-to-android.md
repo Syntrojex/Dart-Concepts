@@ -64,3 +64,31 @@ yehi naam le liya.
 | **Kernel** | Android ka core hissa (Linux kernel par based) jo hardware resources manage karta hai |
 
 ---
+
+## Android Versions aur API Levels
+Tumne shayad suna hoga **"Android 12"**, **"Android 13"**, ya
+**"Android 14"** — ye Android ke **public version names** hain.
+
+Lekin coding ki duniya mein, har Android version ko ek numeric
+**API Level** bhi diya jata hai. Jab developers app banate hain, to
+unhe apni app ka **minimum API Level** batana padta hai — is se system
+ko pata chalta hai ke app kis se kis purane Android version tak
+compatible hai.
+
+> **Misal:** "Ye app Android 5.0 aur uske baad chalti hai" ka matlab
+> hai ke app ka `minSdkVersion` us API Level par set hai jo Android 5.0
+> (API Level 21) ke barabar hai.
+
+| Android Version | Takhmeenan API Level |
+|------------------|----------------------|
+| Android 5.0 (Lollipop) | 21 |
+| Android 10 | 29 |
+| Android 12 | 31 |
+| Android 13 | 33 |
+| Android 14 | 34 |
+
+> **Android Version → API Level** (dono ek doosre se directly juray
+> hote hain, aur zyada API Level ka matlab hai naye system features
+> tak access)
+
+---
