@@ -1,4 +1,8 @@
+<div align="center">
+
 # Android — Introduction
+
+</div>
 
 ## Android Kya Hai?
 Android ek **Operating System (OS)** hai jo khaas tor par mobile
