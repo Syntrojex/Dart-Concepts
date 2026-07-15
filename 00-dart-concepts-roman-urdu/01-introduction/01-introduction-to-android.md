@@ -1,16 +1,12 @@
-<div align="center">
-
 # Android — Introduction
-
-</div>
 
 ## Android Kya Hai?
 Android ek **Operating System (OS)** hai jo khaas tor par mobile
 devices ke liye banaya gaya hai. Jaise computer ko chalane ke liye
-Windows jaisi OS chahiye hoti hai, waise hi mobile ka hardware — screen,
-camera, battery, sensors — sab kuch control aur coordinate karne ke
-liye ek operating system chahiye hoti hai. Wahi operating system Android
-hai.
+Windows jaisi OS chahiye hoti hai, waise hi mobile ka hardware —
+**screen, camera, battery, sensors** — sab kuch control aur coordinate
+karne ke liye ek operating system chahiye hoti hai. Wahi operating
+system **Android** hai.
 
 > **Android → Mobile Devices Ka Operating System**
 
@@ -79,9 +75,9 @@ compatible hai.
 > hai ke app ka `minSdkVersion` us API Level par set hai jo Android 5.0
 > (API Level 21) ke barabar hai.
 
-| Android Version | Takhmeenan API Level |
+| Android Version | API Level |
 |------------------|----------------------|
-| Android 5.0 (Lollipop) | 21 |
+| Android 5  | 21 |
 | Android 10 | 29 |
 | Android 12 | 31 |
 | Android 13 | 33 |
@@ -92,3 +88,12 @@ compatible hai.
 > tak access)
 
 ---
+
+## Quick Recap
+> - **Android** = Mobile ki Operating System, **Google** ne banayi
+> - **Open Source** → companies shared core code par apni UI customize
+>   kar sakti hain
+> - Naam **Greek** se aaya, matlab "insaan jaisa"
+> - **Linux-based** system hai
+> - Har version ka apna **API Level** hota hai, jo developers app
+>   compatibility set karne ke liye use karte hain
