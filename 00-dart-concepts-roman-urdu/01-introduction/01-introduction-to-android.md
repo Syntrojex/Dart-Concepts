@@ -31,3 +31,20 @@ architecture wahi Android ka foundation rehta hai.
 > bilkul theek chalti hain.
 
 ---
+
+## Lafz "Android" Kahan Se Aaya
+"Android" lafz **Greek** zuban se aaya hai, jiska matlab hai **"insaan
+jaisa"** ya **"insaan se milta julta"**:
+
+- **andr-** → mard / insaan
+- **-oeidēs** → jaisa / milta julta
+
+Purane science-fiction mein "android" ek aise robot ke liye use hota
+tha jo dikhne mein insaan jaisa ho — Google ne apni mobile OS ke liye
+yehi naam le liya.
+
+> **Technical definition:** Android ek **Linux-based, open-source
+> operating system** hai jo Google ne banayi, khaas tor par
+> touchscreen mobile devices jaise smartphones aur tablets ke liye.
+
+---
