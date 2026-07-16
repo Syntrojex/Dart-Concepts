@@ -56,3 +56,29 @@ a human-like appearance — Google borrowed this name for its mobile OS.
 | **Kernel** | The core part of Android (based on the Linux kernel) that manages hardware resources |
 
 ---
+
+## Android Versions & API Levels
+You've probably heard names like **"Android 12"**, **"Android 13"**,
+or **"Android 14"** — these are the **public version names** of Android.
+
+Behind the scenes, in the world of coding, every Android version is
+also assigned a numeric **API Level**. When developers build an app,
+they must specify the **minimum API Level** their app supports — this
+tells the system the oldest Android version the app is compatible with.
+
+> **Example:** "This app supports Android 5.0 and above" essentially
+> means the app's `minSdkVersion` is set to the API Level that
+> corresponds to Android 5.0 (API Level 21).
+
+| Android Version | Approx. API Level |
+|------------------|-------------------|
+| Android 5  | 21 |
+| Android 10 | 29 |
+| Android 12 | 31 |
+| Android 13 | 33 |
+| Android 14 | 34 |
+
+> **Android Version → API Level** (they map 1-to-1, and higher API
+> levels generally mean access to newer system features)
+
+---
