@@ -29,3 +29,15 @@ This is the single biggest difference between iOS and Android:
 | **Customization** | High (manufacturers modify UI) | Very Limited |
 
 ---
+
+## Development Tools
+Just as Android has **Android Studio** as its official development
+environment, Apple has its own dedicated tool for iOS development
+called **Xcode**.
+
+| Platform | Official IDE/Tool |
+|----------|---------------------|
+| **Android** | Android Studio |
+| **iOS** | Xcode |
+
+---
