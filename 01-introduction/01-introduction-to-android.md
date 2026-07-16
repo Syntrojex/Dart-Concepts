@@ -44,3 +44,15 @@ a human-like appearance — Google borrowed this name for its mobile OS.
 > touchscreen mobile devices such as smartphones and tablets.
 
 ---
+
+## Key Terms to Remember
+
+| Term | Meaning |
+|------|---------|
+| **Android** | The "brain" (Operating System) of a mobile device |
+| **Google** | The company that owns and develops Android |
+| **Flutter** | A framework/tool used to build apps for Android (and other platforms) using the Dart language |
+| **Play Store** | Google's official marketplace where Android apps are distributed and downloaded |
+| **Kernel** | The core part of Android (based on the Linux kernel) that manages hardware resources |
+
+---
