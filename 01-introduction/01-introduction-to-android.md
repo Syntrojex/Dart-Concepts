@@ -28,3 +28,19 @@ architecture remain the **same Android foundation**.
 > "feel" different, yet both run Android apps just fine.
 
 ---
+
+## Where the Word "Android" Comes From
+The word "Android" has **Greek origins**, meaning **"man-like"** or
+**"resembling a human"**:
+
+- **andr-** → man / human
+- **-oeidēs** → like / resembling
+
+Historically, "android" was a science-fiction term for a robot with
+a human-like appearance — Google borrowed this name for its mobile OS.
+
+> **Technical definition:** Android is a **Linux-based, open-source
+> operating system** developed by Google, primarily designed for
+> touchscreen mobile devices such as smartphones and tablets.
+
+---
