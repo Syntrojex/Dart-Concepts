@@ -82,3 +82,11 @@ tells the system the oldest Android version the app is compatible with.
 > levels generally mean access to newer system features)
 
 ---
+
+## Quick Recap
+> - **Android** = Mobile Operating System, developed by **Google**
+> - **Open Source** → allows brands to customize UI on shared core code
+> - Name comes from **Greek**, meaning "man-like"
+> - **Linux-based** system
+> - Every version has a corresponding **API Level**, used by developers
+>   to set app compatibility
