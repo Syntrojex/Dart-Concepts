@@ -63,3 +63,12 @@ You don't need a Mac for everything — only for the final build step:
   time to build and test on iOS
 
 ---
+
+## Quick Recap
+> - **iOS** = Apple's mobile Operating System, runs only on iPhone/iPad
+> - **Closed Source** — fully controlled by Apple, cannot be copied or
+>   modified by other companies
+> - Official development tool: **Xcode**
+> - Building an iOS app **requires a Mac** — but writing the code can
+>   still be done on Windows
+> - Installable file format: **IPA** (iOS equivalent of Android's APK)
