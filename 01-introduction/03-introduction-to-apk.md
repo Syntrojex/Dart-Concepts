@@ -38,3 +38,17 @@ However, Google later introduced a newer, more efficient format:
 > submissions require AAB.
 
 ---
+
+## Generating an APK
+Once your Flutter app's code is complete, you generate the installable
+APK file using a simple terminal command:
+
+```bash
+flutter build apk
+```
+
+This command compiles **all your Dart code and Flutter widgets
+together** and packages everything into a single `.apk` file, ready
+to be installed on an Android device.
+
+---
