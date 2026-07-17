@@ -65,3 +65,15 @@ to be installed on an Android device.
 > needing to click through the tabs manually.
 
 ---
+
+## Quick Recap
+> - **APK** = Android Package Kit — the installable file format for
+>   Android apps, similar to a ZIP file
+> - Contains: **DEX files** (compiled code), **Resources**
+>   (images/fonts), **AndroidManifest.xml** (permissions/identity),
+>   and **Assets** (extra files)
+> - **APK** → for direct sharing/sideloading
+> - **AAB** → required for Google Play Store uploads (smaller,
+>   optimized size)
+> - Generate using: `flutter build apk`
+> - Quick terminal access shortcut: **Alt + F12**
