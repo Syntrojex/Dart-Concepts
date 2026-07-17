@@ -24,3 +24,17 @@ contains several components bundled together:
 | **Assets** | Any additional raw files you've added to your app (e.g., JSON files, custom fonts, data files) |
 
 ---
+
+## APK vs AAB
+Originally, APK was the only distribution format for Android apps.
+However, Google later introduced a newer, more efficient format:
+
+| Format | Full Name | Use Case |
+|--------|-----------|----------|
+| **APK** (`.apk`) | Android Package Kit | Can be shared directly with anyone via WhatsApp, Bluetooth, email, etc. — the recipient can install it immediately |
+| **AAB** (`.aab`) | Android App Bundle | Required when uploading an app to the **Google Play Store**. Google uses it to generate optimized APKs for each device, resulting in a **smaller overall app size** for end users |
+
+> **Key takeaway:** Use APK for direct sharing/testing, but Play Store
+> submissions require AAB.
+
+---
