@@ -52,3 +52,16 @@ together** and packages everything into a single `.apk` file, ready
 to be installed on an Android device.
 
 ---
+
+## How to Run This Command
+1. Open **Android Studio**
+2. Look at the **bottom-left corner** of the screen — you'll see tabs
+   like: `Version Control`, `Run`, `Debug`, `TODO`, and `Terminal`
+3. Click on **Terminal**
+4. This opens a command-line interface directly at the bottom of your
+   IDE, where you can type and run `flutter build apk`
+
+> **Shortcut Key:** `Alt + F12` — opens the terminal instantly without
+> needing to click through the tabs manually.
+
+---
