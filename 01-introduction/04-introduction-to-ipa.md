@@ -79,3 +79,14 @@ closed ecosystem:
 > requires proper signing and distribution channels.
 
 ---
+
+## Quick Recap
+> - **IPA** = iOS App Store Package — the installable file format for
+>   iOS apps, similar to APK for Android
+> - Contains: **compiled binary**, **resources**, **Info.plist**
+>   (identity/permissions file), and **Assets.car**
+> - Generate using: `flutter build ipa`
+> - **Requires a Mac** to build — unlike APK, which can be built on
+>   any OS
+> - Distribution is restricted — mainly via **App Store** or
+>   **TestFlight**, unlike APK's free sharing model
