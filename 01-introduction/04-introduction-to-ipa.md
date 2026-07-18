@@ -47,3 +47,17 @@ flutter build ipa
   **Codemagic** or **MacinCloud**) to build their IPA remotely
 
 ---
+
+## IPA vs APK — Quick Comparison
+
+| Feature | APK (Android) | IPA (iOS) |
+|---------|-----------------|-------------|
+| **Full Form** | Android Package Kit | iOS App Store Package |
+| **Platform** | Android | iOS |
+| **Build Command** | `flutter build apk` | `flutter build ipa` |
+| **Build Requirement** | Works on Windows, macOS, Linux | Requires macOS (Xcode) |
+| **Identity/Manifest File** | `AndroidManifest.xml` | `Info.plist` |
+| **Direct Sharing** | Easy (WhatsApp, Bluetooth, email) | Restricted — mainly distributed via App Store or TestFlight |
+| **Store Upload Format** | AAB (Android App Bundle) preferred | IPA is the standard upload format for the App Store |
+
+---
