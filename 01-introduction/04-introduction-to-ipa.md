@@ -24,3 +24,16 @@ everything the app needs to run:
 | **Assets.car** | A compiled asset catalog containing app icons, launch images, and other visual resources |
 
 ---
+
+## Generating an IPA
+Just like Android apps are built using `flutter build apk`, iOS apps
+are built using a similar command:
+
+```bash
+flutter build ipa
+```
+
+> ⚠️ **Important:** Unlike APK generation, building an IPA **requires
+> a Mac** (MacBook or iMac) because Apple's build tools (Xcode) only
+> run on macOS. You **cannot** generate an IPA file directly on
+> Windows or Linux.
