@@ -37,3 +37,13 @@ flutter build ipa
 > a Mac** (MacBook or iMac) because Apple's build tools (Xcode) only
 > run on macOS. You **cannot** generate an IPA file directly on
 > Windows or Linux.
+
+### The Workaround (Same as iOS Development in General)
+- You can write your entire Flutter/Dart codebase on **Windows or
+  Linux** without any problem
+- A **Mac is only required at the final build stage**, when compiling
+  the code into an actual `.ipa` file
+- Developers without a Mac often use cloud-based Mac services (like
+  **Codemagic** or **MacinCloud**) to build their IPA remotely
+
+---
