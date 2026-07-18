@@ -61,3 +61,21 @@ flutter build ipa
 | **Store Upload Format** | AAB (Android App Bundle) preferred | IPA is the standard upload format for the App Store |
 
 ---
+
+## How IPA Apps Are Distributed
+Unlike APK (which can be shared freely and installed by simply opening
+the file), IPA distribution is much more restricted due to Apple's
+closed ecosystem:
+
+1. **App Store** — the primary and most common method of distribution
+   for regular users
+2. **TestFlight** — Apple's official platform for beta testing apps
+   before public release
+3. **Ad Hoc / Enterprise Distribution** — used for internal company
+   apps or limited testing, requiring specific device registration
+
+> Unlike Android, you generally **cannot** just send someone an `.ipa`
+> file and have them install it directly — Apple's security model
+> requires proper signing and distribution channels.
+
+---
