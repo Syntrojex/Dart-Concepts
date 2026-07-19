@@ -64,3 +64,26 @@ it's running. This results in:
 > instantly seeing code changes without restarting the app.
 
 ---
+
+## Features of Dart
+
+1. **Object-Oriented and Strongly Typed**
+   Dart is built around classes and objects, and every variable has a
+   defined type — either explicitly declared or inferred by the
+   compiler. This helps catch errors at compile-time rather than at
+   runtime.
+
+2. **Follows OOP (Object-Oriented Programming) Principles**
+   Dart fully supports the four pillars of OOP:
+   - Encapsulation
+   - Inheritance
+   - Polymorphism
+   - Abstraction
+
+3. **A Mixture of JavaScript, Java, and C#**
+   Dart combines ideas from all three languages:
+   - **JavaScript** → flexibility, async-friendly design
+   - **Java** → strong OOP structure
+   - **C#** → clean, modern syntax style
+
+---
