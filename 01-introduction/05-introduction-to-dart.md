@@ -24,3 +24,17 @@ Today, Dart is maintained by Google and is inseparably linked with
 Flutter's success.
 
 ---
+
+## Key Facts About Dart
+
+| Fact | Detail |
+|------|--------|
+| **Year Introduced** | 2011 |
+| **Owner** | Google |
+| **Original Purpose** | To compete with JavaScript |
+| **Turning Point** | Gained massive popularity after Flutter's launch (2015–2017) |
+| **Syntax Style** | Uses curly braces `{}` like C++, and every statement ends with a semicolon `;` |
+| **Pointers** | Dart has **no pointers** — memory is managed automatically |
+| **Compilation** | Supports **AOT (Ahead-of-Time) Compilation**, which makes the final compiled app fast and efficient |
+
+---
