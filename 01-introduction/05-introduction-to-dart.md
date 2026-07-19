@@ -87,3 +87,11 @@ it's running. This results in:
    - **C#** → clean, modern syntax style
 
 ---
+
+## Quick Recap
+> - Dart was introduced by **Google in 2011**, originally to compete
+>   with JavaScript
+> - It became truly powerful after **Flutter's launch (2015–2017)**
+> - Has **no pointers**, uses **AOT compilation** for fast performance
+> - Is **object-oriented, strongly typed**, and follows OOP principles
+> - Combines the best of **JavaScript, Java, and C#**
