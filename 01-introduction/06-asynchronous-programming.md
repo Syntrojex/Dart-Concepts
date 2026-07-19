@@ -43,3 +43,14 @@ Dart provides built-in tools to make this possible, primarily through:
 > in detail in dedicated concept files later in this repository.
 
 ---
+
+## Synchronous vs Asynchronous — Quick Comparison
+
+| Aspect | Synchronous | Asynchronous |
+|--------|--------------|----------------|
+| **UI Behavior** | Freezes until task completes | Remains responsive during task |
+| **User Experience** | Can cause "Jank" (visible lag/freeze) | Smooth, uninterrupted experience |
+| **Best Used For** | Quick, instant operations | Time-consuming operations (network, file I/O, image processing) |
+| **Example** | Simple math calculation | Downloading an image from the internet |
+
+---
