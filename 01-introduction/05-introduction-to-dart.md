@@ -38,3 +38,15 @@ Flutter's success.
 | **Compilation** | Supports **AOT (Ahead-of-Time) Compilation**, which makes the final compiled app fast and efficient |
 
 ---
+
+## Why No Pointers?
+Unlike C or C++, Dart does not expose pointers directly to developers.
+This design choice means:
+- No manual memory address handling
+- Fewer memory-related bugs (like dangling pointers or memory leaks)
+- Garbage collection automatically manages memory in the background
+
+This makes Dart significantly safer and easier to learn compared to
+lower-level languages.
+
+---
