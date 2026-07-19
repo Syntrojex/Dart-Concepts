@@ -21,3 +21,25 @@ the app normally, even while data is still being fetched behind the
 scenes.
 
 ---
+
+## Why Asynchronous Programming Matters in Flutter
+Since Flutter apps are UI-driven and constantly need to feel smooth
+and responsive, asynchronous programming is a **core requirement**,
+not just an optional feature. Any operation that could take unknown or
+noticeable time — API calls, file reads/writes, database queries,
+image loading — should always be handled asynchronously.
+
+Dart provides built-in tools to make this possible, primarily through:
+- **`Future`** — represents a value that will be available at some
+  point in the future (used for one-time async operations, like
+  fetching data once)
+- **`async` / `await`** — keywords used to write asynchronous code in
+  a way that looks and reads like normal synchronous code
+- **`Stream`** — represents a sequence of asynchronous events over
+  time (used when data arrives continuously, like live location
+  updates)
+
+> These concepts (`Future`, `async/await`, `Stream`) will be covered
+> in detail in dedicated concept files later in this repository.
+
+---
