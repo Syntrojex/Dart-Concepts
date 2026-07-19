@@ -54,3 +54,13 @@ Dart provides built-in tools to make this possible, primarily through:
 | **Example** | Simple math calculation | Downloading an image from the internet |
 
 ---
+
+## Quick Recap
+> - Some tasks (network calls, file reads, image processing) naturally
+>   take time
+> - **Synchronous** code freezes the screen until the task finishes —
+>   causing **"Jank"**
+> - **Asynchronous** code lets the app run these tasks in the
+>   background, keeping the UI responsive
+> - Dart handles this using **Future**, **async/await**, and
+>   **Stream** — core tools for writing non-blocking code
