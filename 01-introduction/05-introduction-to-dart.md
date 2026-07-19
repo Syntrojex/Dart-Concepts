@@ -50,3 +50,17 @@ This makes Dart significantly safer and easier to learn compared to
 lower-level languages.
 
 ---
+
+## AOT Compilation — Why It Matters
+**AOT (Ahead-of-Time) Compilation** means Dart code is compiled
+directly into native machine code **before** the app runs — not while
+it's running. This results in:
+- Faster app startup times
+- Better overall runtime performance
+- Smooth production-level performance for released apps
+
+> Dart also supports **JIT (Just-in-Time) Compilation** during
+> development, which enables Flutter's famous **Hot Reload** feature —
+> instantly seeing code changes without restarting the app.
+
+---
