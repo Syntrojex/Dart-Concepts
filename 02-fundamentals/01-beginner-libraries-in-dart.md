@@ -13,3 +13,19 @@ import 'dart:core';
 ```
 
 ---
+
+## Essential Beginner Libraries
+
+### 1. `dart:core`
+```dart
+import 'dart:core';
+```
+This library contains fundamental building blocks of Dart —
+**`print`, `int`, `String`, `List`**, and many other core types and
+functions.
+
+> **Special Note:** `dart:core` is **automatically included** in every
+> Dart file — you never actually need to write this import statement
+> manually. It's there by default.
+
+---
