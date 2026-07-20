@@ -71,3 +71,13 @@ a task needs to complete **after some delay** or when handling
 asynchronous operations (like network requests or timers).
 
 ---
+
+## Import Sequence in Dart
+Unlike languages like C++, where you can write header imports (like
+`#include <iostream>` or `#include <cmath>`) in **any order** without
+issue — because C++ typically runs synchronously and the compiler has
+time to fetch each library one operation at a time — **Dart has a
+specific, recommended sequence** for organizing imports.
+
+This sequence isn't overly complicated, and following it keeps your
+code clean and consistent:
