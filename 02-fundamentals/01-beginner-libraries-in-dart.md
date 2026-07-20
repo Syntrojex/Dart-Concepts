@@ -127,3 +127,13 @@ import 'widgets/custom_button.dart';
 > will actually warn you if your imports aren't properly ordered.
 
 ---
+
+## Quick Recap
+> - Libraries are imported using the `import` keyword
+> - **`dart:core`** → automatic, no need to import manually
+> - **`dart:math`** → mathematical operations
+> - **`dart:convert`** → JSON conversion (APIs)
+> - **`dart:io`** → file handling & console input (most used)
+> - **`dart:async`** → `Future` and `Stream` for async operations
+> - **Import order:** `dart:` libraries → `package:` libraries → your
+>   own project files
