@@ -40,3 +40,13 @@ Used when you need to perform **mathematical operations**, such as:
 - Generating random numbers (`Random()`)
 
 ---
+
+### 3. `dart:convert`
+```dart
+import 'dart:convert';
+```
+Used when you're fetching data from the **internet (APIs)** and need
+to convert it into/from **JSON format** — extremely common when
+working with REST APIs in Flutter apps.
+
+---
