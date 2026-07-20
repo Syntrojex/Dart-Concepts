@@ -103,3 +103,27 @@ code clean and consistent:
    import 'models/user_model.dart';
    import 'services/api_service.dart';
 ```
+
+### Example — Correct Import Order
+
+```dart
+// 1. Dart core libraries
+import 'dart:async';
+import 'dart:convert';
+
+// 2. External packages
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+
+// 3. Your own project files
+import 'models/user_model.dart';
+import 'widgets/custom_button.dart';
+```
+
+> Following this order isn't strictly enforced by the Dart compiler
+> (your code will still run if you mix the order), but it's a widely
+> followed **best practice** in the Dart/Flutter community for
+> readability and maintainability. Many linters (like `flutter_lints`)
+> will actually warn you if your imports aren't properly ordered.
+
+---
