@@ -50,3 +50,14 @@ to convert it into/from **JSON format** — extremely common when
 working with REST APIs in Flutter apps.
 
 ---
+
+### 4. `dart:io`
+```dart
+import 'dart:io';
+```
+Used for **reading and writing files**, and for taking **user input
+from the console**. This is one of the **most commonly used**
+libraries in real-world Dart applications, especially for command-line
+tools and backend scripts.
+
+---
