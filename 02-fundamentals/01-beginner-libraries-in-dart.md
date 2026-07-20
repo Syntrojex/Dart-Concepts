@@ -81,3 +81,25 @@ specific, recommended sequence** for organizing imports.
 
 This sequence isn't overly complicated, and following it keeps your
 code clean and consistent:
+
+### Recommended Import Order
+
+1. **Dart core libraries first** (`dart:` prefix)
+```dart
+   import 'dart:core';
+   import 'dart:math';
+   import 'dart:async';
+```
+
+2. **External packages next** (`package:` prefix — things installed
+   via `pubspec.yaml`, including Flutter's own packages)
+```dart
+   import 'package:flutter/material.dart';
+   import 'package:http/http.dart';
+```
+
+3. **Your own project files last** (relative imports)
+```dart
+   import 'models/user_model.dart';
+   import 'services/api_service.dart';
+```
