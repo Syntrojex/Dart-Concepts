@@ -61,3 +61,13 @@ libraries in real-world Dart applications, especially for command-line
 tools and backend scripts.
 
 ---
+
+### 5. `dart:async`
+```dart
+import 'dart:async';
+```
+Used for working with **`Future`** and **`Streams`** — essential when
+a task needs to complete **after some delay** or when handling
+asynchronous operations (like network requests or timers).
+
+---
