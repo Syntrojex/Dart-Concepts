@@ -29,3 +29,14 @@ functions.
 > manually. It's there by default.
 
 ---
+
+### 2. `dart:math`
+```dart
+import 'dart:math';
+```
+Used when you need to perform **mathematical operations**, such as:
+- Calculating square roots (`sqrt()`)
+- Trigonometric functions (`sin()`, `cos()`)
+- Generating random numbers (`Random()`)
+
+---
