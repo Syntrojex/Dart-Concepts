@@ -29,3 +29,12 @@ frameworks today.
 - May not be optimal for apps demanding advanced graphics, intensive computation, or deep native features integration 
 
 ---
+
+## Flutter vs Native — Performance Comparison
+A common myth is that cross-platform apps are always noticeably
+slower than native apps. This isn't fully accurate anymore:
+
+- Flutter compiles to machine code using Dart and renders through its own high-performance Impeller engine, achieving up to 120fps on supported hardware 
+- For the vast majority of applications, Flutter's performance is indistinguishable from native 
+
+---
