@@ -44,3 +44,10 @@ This dual compilation model is one of the core reasons Flutter apps
 feel fast to build **and** fast to run.
 
 ---
+
+## Quick Recap
+> - Flutter = Google's open-source SDK for building cross-platform apps
+> - Released in 2017, uses **Dart** as its programming language
+> - Single codebase → apps for iOS, Android, web, desktop
+> - Uses **AOT compilation** for production, **JIT** for development (Hot Reload)
+> - Known for its rich widget system and near-native performance
