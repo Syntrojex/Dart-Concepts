@@ -61,3 +61,8 @@ For most learning journeys and the vast majority of real-world apps,
 is exactly why this repository focuses on Dart and Flutter.
 
 ---
+
+## Quick Recap
+> - **Native** = separate codebases (Swift/Kotlin) per platform — best performance, higher cost/time
+> - **Cross-Platform (Flutter)** = single Dart codebase for all platforms — faster, cheaper, near-native performance
+> - Flutter's AOT compilation + Impeller engine make it performance-competitive with native apps for most use cases
