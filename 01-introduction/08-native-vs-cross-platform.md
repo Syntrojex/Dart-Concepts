@@ -12,3 +12,20 @@ Native app development involves writing separate codebases for each platform (iO
 - Managing two separate codebases introduces additional complexity, and each platform's technologies have their own separate maintenance requirements 
 
 ---
+
+## What is Cross-Platform Development?
+Cross-platform development means writing **one codebase** that runs on
+multiple platforms (Android, iOS, and sometimes web/desktop too).
+Flutter and React Native are the two most popular cross-platform
+frameworks today.
+
+**Pros:**
+- Cross-platform development is significantly faster — a single team building with Flutter or React Native can typically deliver a production-ready app in four to six months, compared to eight to twelve months for parallel native iOS and Android builds 
+- Lower cost — a single codebase significantly reduces the overall development cycle 
+- Easier maintenance — one codebase instead of two
+
+**Cons:**
+- May not provide access to certain device-specific features without additional effort using native APIs 
+- May not be optimal for apps demanding advanced graphics, intensive computation, or deep native features integration 
+
+---
