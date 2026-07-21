@@ -28,3 +28,14 @@ Android / iOS → APK / IPA → Dart → Async Basics → Flutter → Native vs 
 | 08 | [Native vs Cross-Platform Development](./08-native-vs-cross-platform.md) | Comparing native and cross-platform approaches — pros, cons, and when to use each |
 
 ---
+
+## 🎯 Why This Section Matters
+Understanding *what* you're building for (Android/iOS), *how* apps get
+packaged (APK/IPA), and *why* Flutter/Dart exist makes everything that
+follows — variables, functions, OOP, widgets — click into place much
+faster. This isn't just theory; it's the context that makes the rest
+of the journey make sense.
+
+---
+
+⬅️ **[Back to Dart-Concepts Home](../README.md)** &nbsp;|&nbsp; ➡️ **Next: [Fundamentals](../02-fundamentals/)**
