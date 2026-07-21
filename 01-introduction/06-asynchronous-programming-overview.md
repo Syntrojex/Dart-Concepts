@@ -1,66 +1,64 @@
 # Asynchronous Programming — Introduction
 
 ## What is Asynchronous Programming?
+
 In mobile apps, certain tasks naturally take time to complete, such as:
 
 1. **Downloading data** from the internet
-2. **Reading a large file** from a database
-3. **Processing an image**
+2. **Reading or writing files**
+3. **Querying a database**
+4. **Processing an image**
 
-If you write your app using **Synchronous programming**, the app's
-entire screen **freezes** while that time-consuming task is running.
-The user could tap a button, and absolutely nothing would happen until
-the task finishes. This kind of unresponsive freezing is commonly
-called **"Jank"** in app development.
+If a time-consuming operation blocks the main execution flow responsible for handling the user interface, the app may become unresponsive. The user may experience delays when scrolling, tapping buttons, or interacting with the application.
 
-**Asynchronous programming** solves this problem — it allows the app
-to fetch data or perform time-consuming tasks **in the background**,
-while the rest of the app (including the UI) remains fully responsive.
-The user can continue scrolling, tapping buttons, and interacting with
-the app normally, even while data is still being fetched behind the
-scenes.
+This can result in a poor user experience, including visible stutters and delays commonly referred to as **jank**.
+
+**Asynchronous programming** helps prevent this problem by allowing an application to start a time-consuming operation without blocking the main flow of execution. The application can continue handling other work while the operation completes.
+
+> **Important:** Asynchronous programming does not necessarily mean that the operation runs on a separate background thread or isolate. In Dart, asynchronous operations can be handled through mechanisms such as `Future`, while CPU-intensive work may require separate isolates.
 
 ---
 
 ## Why Asynchronous Programming Matters in Flutter
-Since Flutter apps are UI-driven and constantly need to feel smooth
-and responsive, asynchronous programming is a **core requirement**,
-not just an optional feature. Any operation that could take unknown or
-noticeable time — API calls, file reads/writes, database queries,
-image loading — should always be handled asynchronously.
 
-Dart provides built-in tools to make this possible, primarily through:
-- **`Future`** — represents a value that will be available at some
-  point in the future (used for one-time async operations, like
-  fetching data once)
-- **`async` / `await`** — keywords used to write asynchronous code in
-  a way that looks and reads like normal synchronous code
-- **`Stream`** — represents a sequence of asynchronous events over
-  time (used when data arrives continuously, like live location
-  updates)
+Flutter applications are highly interactive and UI-driven, so keeping the interface responsive is important for a smooth user experience.
 
-> These concepts (`Future`, `async/await`, `Stream`) will be covered
-> in detail in dedicated concept files later in this repository.
+Operations that may take a noticeable amount of time — such as:
+
+- API requests
+- File operations
+- Database queries
+- Image loading
+- Other I/O operations
+
+are commonly handled asynchronously so that the application does not unnecessarily block while waiting for them to complete.
+
+Dart provides built-in tools to work with asynchronous operations, primarily through:
+
+- **`Future`** — represents a result that may become available later, typically for a one-time asynchronous operation.
+- **`async` / `await`** — keywords that make asynchronous code easier to read and write.
+- **`Stream`** — represents a sequence of asynchronous events or values over time, such as continuous data updates.
+
+> These concepts (`Future`, `async/await`, and `Stream`) will be covered in detail in dedicated concept files later in this repository.
 
 ---
 
 ## Synchronous vs Asynchronous — Quick Comparison
 
 | Aspect | Synchronous | Asynchronous |
-|--------|--------------|----------------|
-| **UI Behavior** | Freezes until task completes | Remains responsive during task |
-| **User Experience** | Can cause "Jank" (visible lag/freeze) | Smooth, uninterrupted experience |
-| **Best Used For** | Quick, instant operations | Time-consuming operations (network, file I/O, image processing) |
-| **Example** | Simple math calculation | Downloading an image from the internet |
+|--------|--------------|--------------|
+| **Execution** | Code generally waits for the current operation to complete before continuing | Code can start an operation and continue handling other work while waiting for its result |
+| **UI Behavior** | A blocking operation can make the UI unresponsive | Helps prevent unnecessary blocking while waiting for I/O operations |
+| **User Experience** | May cause delays, stutters, or freezes if a long operation blocks the UI | Helps maintain a responsive user experience |
+| **Best Used For** | Quick, immediate operations | Operations that may take noticeable time, especially I/O operations |
+| **Example** | Simple arithmetic calculation | Downloading data from the internet |
 
 ---
 
 ## Quick Recap
-> - Some tasks (network calls, file reads, image processing) naturally
->   take time
-> - **Synchronous** code freezes the screen until the task finishes —
->   causing **"Jank"**
-> - **Asynchronous** code lets the app run these tasks in the
->   background, keeping the UI responsive
-> - Dart handles this using **Future**, **async/await**, and
->   **Stream** — core tools for writing non-blocking code
+
+> - Some operations, such as network requests, file operations, and database queries, naturally take time.
+> - **Synchronous execution** can block the current flow while an operation is being completed.
+> - **Asynchronous programming** allows applications to handle operations that may take time without unnecessarily blocking the main flow of execution.
+> - Dart provides **`Future`**, **`async/await`**, and **`Stream`** for working with asynchronous operations.
+> - CPU-intensive work may require separate isolates when it would otherwise block the application.
