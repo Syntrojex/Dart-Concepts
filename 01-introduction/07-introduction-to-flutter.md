@@ -34,3 +34,13 @@ Flutter apps compile Ahead Of Time (AOT) into native machine code for iOS and An
 | **Performance** | Delivers near-native performance through AOT compilation and Flutter's own rendering engine. |
 
 ---
+
+## Why Flutter Uses Dart
+Dart was chosen as Flutter's language because it supports both:
+- **JIT (Just-in-Time) compilation** during development — enabling Hot Reload
+- **AOT (Ahead-of-Time) compilation** for production — enabling fast, native-level performance
+
+This dual compilation model is one of the core reasons Flutter apps
+feel fast to build **and** fast to run.
+
+---
