@@ -1,47 +1,65 @@
 # Android — Introduction
 
 ## What is Android?
-Android is an **Operating System (OS)** built specifically for mobile
-devices. Just as a computer needs an OS like Windows to function,
-mobile hardware — the **screen, camera, battery, sensors** — needs an
-operating system to control and coordinate everything. That operating
-system is **Android**.
 
-> **Android → Operating System of Mobile Devices**
+Android is an **Operating System (OS)** designed primarily for mobile
+devices. Just as a computer needs an operating system like Windows to
+function, mobile hardware — such as the **screen, camera, battery, and
+sensors** — needs an operating system to control and coordinate its
+resources.
+
+That operating system is **Android**.
+
+> **Android → Operating System for Mobile Devices**
 
 ---
 
 ## Why Android is Special — Open Source
-Android's single biggest advantage is that it is **Open Source**. This
-means Google has made the underlying source code **freely available**
-to anyone. Because of this openness, companies like **Samsung, Oppo,
-Vivo, and Xiaomi** can take the same core Android code, customize the
-visual layer (the **UI** — User Interface), and ship it as their own
-branded experience (e.g., Samsung's "One UI", Xiaomi's "MIUI").
 
-In simple terms: the underlying code that powers Android is **shared**
-across all these companies. Each company modifies only the **UI/UX
-layer** on top of it — but the core functionality, kernel, and system
-architecture remain the **same Android foundation**.
+One of Android's major advantages is its foundation in **open-source
+software**. Android is built on the **Android Open Source Project (AOSP)**,
+whose source code is publicly available under open-source licenses.
 
-> This is exactly why your Samsung phone and your friend's Xiaomi phone
-> "feel" different, yet both run Android apps just fine.
+Because of this open foundation, companies such as **Samsung, OPPO, vivo,
+and Xiaomi** can build their own customized versions of Android on top of
+the AOSP platform.
+
+For example:
+
+- Samsung → **One UI**
+- Xiaomi → **HyperOS**
+- OPPO → **ColorOS**
+- vivo → **OriginOS**
+
+These companies can customize much more than just the visual interface.
+They may modify the **user interface, system applications, system
+components, platform features, and other parts of the Android experience**.
+
+However, they still build upon the Android platform and its underlying
+open-source foundation.
+
+> This is why a Samsung phone and a Xiaomi phone can look and feel very
+> different while both supporting Android applications.
 
 ---
 
 ## Where the Word "Android" Comes From
-The word "Android" has **Greek origins**, meaning **"man-like"** or
+
+The word **"Android"** has Greek origins and means **"man-like"** or
 **"resembling a human"**:
 
 - **andr-** → man / human
 - **-oeidēs** → like / resembling
 
-Historically, "android" was a science-fiction term for a robot with
-a human-like appearance — Google borrowed this name for its mobile OS.
+Historically, the term **android** was used in science fiction and
+technology to describe a robot or machine with a human-like appearance.
 
-> **Technical definition:** Android is a **Linux-based, open-source
-> operating system** developed by Google, primarily designed for
-> touchscreen mobile devices such as smartphones and tablets.
+Google adopted this name for its mobile operating system.
+
+> **Technical definition:** Android is a Linux-kernel-based operating
+> system developed primarily by Google and the Android Open Source Project
+> (AOSP), designed mainly for mobile devices such as smartphones and
+> tablets.
 
 ---
 
@@ -49,44 +67,56 @@ a human-like appearance — Google borrowed this name for its mobile OS.
 
 | Term | Meaning |
 |------|---------|
-| **Android** | The "brain" (Operating System) of a mobile device |
-| **Google** | The company that owns and develops Android |
-| **Flutter** | A framework/tool used to build apps for Android (and other platforms) using the Dart language |
-| **Play Store** | Google's official marketplace where Android apps are distributed and downloaded |
-| **Kernel** | The core part of Android (based on the Linux kernel) that manages hardware resources |
+| **Android** | An operating system that manages the hardware and software of a mobile device |
+| **Google** | The primary company behind the development of Android |
+| **AOSP** | The Android Open Source Project, which provides the open-source foundation of Android |
+| **Flutter** | A UI toolkit and framework used to build applications for Android and other platforms using the Dart language |
+| **Play Store** | Google's official marketplace for distributing and downloading Android applications |
+| **Kernel** | The core part of an operating system that manages hardware resources and provides communication between hardware and software |
 
 ---
 
 ## Android Versions & API Levels
-You've probably heard names like **"Android 12"**, **"Android 13"**,
-or **"Android 14"** — these are the **public version names** of Android.
 
-Behind the scenes, in the world of coding, every Android version is
-also assigned a numeric **API Level**. When developers build an app,
-they must specify the **minimum API Level** their app supports — this
-tells the system the oldest Android version the app is compatible with.
+You've probably heard names like **Android 12**, **Android 13**, or
+**Android 14**. These are the public version names of Android.
 
-> **Example:** "This app supports Android 5.0 and above" essentially
-> means the app's `minSdkVersion` is set to the API Level that
-> corresponds to Android 5.0 (API Level 21).
+Behind the scenes, every Android platform release is associated with a
+numeric **API Level**. API levels represent the set of platform APIs
+available to developers in a particular Android version.
 
-| Android Version | Approx. API Level |
-|------------------|-------------------|
-| Android 5  | 21 |
+When developers build an app, they specify the minimum Android API level
+their app supports. This determines the oldest Android platform on which
+the app can run.
+
+> **Example:** If an app supports Android 5.0 and above, its minimum
+> supported API level is **API Level 21**.
+
+In modern Android projects, this minimum supported version is commonly
+configured through the `minSdk` setting in the project's Gradle
+configuration.
+
+| Android Version | API Level |
+|-----------------|-----------|
+| Android 5.0 (Lollipop) | 21 |
 | Android 10 | 29 |
 | Android 12 | 31 |
 | Android 13 | 33 |
 | Android 14 | 34 |
 
-> **Android Version → API Level** (they map 1-to-1, and higher API
-> levels generally mean access to newer system features)
+> **Android Version → API Level**
+>
+> An Android version corresponds to a specific API level. In general,
+> newer API levels provide access to newer platform features and APIs.
 
 ---
 
 ## Quick Recap
-> - **Android** = Mobile Operating System, developed by **Google**
-> - **Open Source** → allows brands to customize UI on shared core code
-> - Name comes from **Greek**, meaning "man-like"
-> - **Linux-based** system
-> - Every version has a corresponding **API Level**, used by developers
->   to set app compatibility
+
+> - **Android** = A mobile operating system developed primarily by Google and the Android Open Source Project
+> - **AOSP** = The open-source foundation of Android
+> - **Open-source foundation** → Allows manufacturers to customize and build their own Android experiences
+> - The name **Android** has Greek origins meaning "man-like"
+> - Android is based on the **Linux kernel**
+> - Each Android platform release is associated with an **API Level**
+> - Developers use minimum API levels to define the oldest Android version their app supports
