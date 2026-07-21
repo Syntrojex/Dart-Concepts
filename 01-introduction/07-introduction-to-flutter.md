@@ -17,3 +17,8 @@ Android and iOS. Cross platform mobile development with Flutter enables develope
 Since its release, Flutter's popularity has grown rapidly, and it is now considered the most adopted cross-platform mobile framework by developer count globally. 
 
 ---
+
+## How Flutter Works
+Flutter apps compile Ahead Of Time (AOT) into native machine code for iOS and Android,  meaning there's no performance-heavy interpreter running when the app is actually used by end users. The Dart virtual machine only runs during development and debugging sessions  — once the app is built for release, it runs as pure native machine code.
+
+---
