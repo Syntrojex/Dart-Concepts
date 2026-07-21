@@ -7,3 +7,9 @@ foundational background knowledge every Dart/Flutter learner should
 have before writing their first line of code.
 
 ---
+
+## 🗺️ Learning Path
+
+Android / iOS → APK / IPA → Dart → Async Basics → Flutter → Native vs Cross-Platform
+
+---
