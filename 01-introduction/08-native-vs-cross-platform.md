@@ -38,3 +38,17 @@ slower than native apps. This isn't fully accurate anymore:
 - For the vast majority of applications, Flutter's performance is indistinguishable from native 
 
 ---
+
+## ⚡ Quick Comparison Table
+
+| Aspect | Native | Cross-Platform (Flutter) |
+|---|---|---|
+| **Codebase** | Separate codebases for iOS and Android | Single codebase for multiple platforms |
+| **Languages** | Swift / Objective-C for iOS<br>Kotlin / Java for Android | Dart |
+| **Development Time** | Generally slower due to separate platform development | Generally faster due to shared codebase |
+| **Cost** | Typically higher due to separate platform teams | Typically lower due to shared development |
+| **Performance** | Maximum platform-specific performance | Near-native performance in most applications |
+| **Device Feature Access** | Full and immediate access to native APIs | Most features are accessible; some may require platform-specific native integration |
+| **Best For** | Apps requiring deep native or hardware integration | Most business apps, startups, MVPs, and cross-platform products |
+
+---
