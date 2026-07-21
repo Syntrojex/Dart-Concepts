@@ -23,53 +23,14 @@ Flutter apps compile Ahead Of Time (AOT) into native machine code for iOS and An
 
 ---
 
-## Key Features of Flutter
+## 🚀 Key Features of Flutter
 
-
-|
- Feature 
-|
- Description 
-|
-|
----------
-|
---------------
-|
-|
-**
-Single Codebase
-**
-|
- Write once, and reuse around 90% of your code across iOS, Android, web, and desktop platforms  
-|
-|
-**
-Hot Reload
-**
-|
- See code changes instantly without restarting the app — a major productivity boost for developers  
-|
-|
-**
-Rich Widget Catalog
-**
-|
- Comes with an extensive collection of pre-built widgets across many categories  
-|
-|
-**
-Custom Rendering Engine
-**
-|
- Flutter draws every pixel itself rather than relying on native OS components, giving developers full control over design. It uses the engine named **Skia**
-|
-|
-**
-Performance
-**
-|
- Near-native performance thanks to AOT compilation and Flutter's own rendering engine (Impeller) 
-|
+| Feature | Description |
+|---|---|
+| **Single Codebase** | Write once and reuse around 90% of your code across iOS, Android, web, and desktop platforms. |
+| **Hot Reload** | See code changes instantly without restarting the app — a major productivity boost for developers. |
+| **Rich Widget Catalog** | Comes with an extensive collection of pre-built widgets across many categories. |
+| **Custom Rendering Engine** | Flutter draws every pixel itself rather than relying on native OS components, giving developers full control over design. It uses the **Impeller** rendering engine. |
+| **Performance** | Delivers near-native performance through AOT compilation and Flutter's own rendering engine. |
 
 ---
