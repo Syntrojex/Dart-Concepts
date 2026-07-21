@@ -22,3 +22,54 @@ Since its release, Flutter's popularity has grown rapidly, and it is now conside
 Flutter apps compile Ahead Of Time (AOT) into native machine code for iOS and Android,  meaning there's no performance-heavy interpreter running when the app is actually used by end users. The Dart virtual machine only runs during development and debugging sessions  — once the app is built for release, it runs as pure native machine code.
 
 ---
+
+## Key Features of Flutter
+
+
+|
+ Feature 
+|
+ Description 
+|
+|
+---------
+|
+--------------
+|
+|
+**
+Single Codebase
+**
+|
+ Write once, and reuse around 90% of your code across iOS, Android, web, and desktop platforms  
+|
+|
+**
+Hot Reload
+**
+|
+ See code changes instantly without restarting the app — a major productivity boost for developers  
+|
+|
+**
+Rich Widget Catalog
+**
+|
+ Comes with an extensive collection of pre-built widgets across many categories  
+|
+|
+**
+Custom Rendering Engine
+**
+|
+ Flutter draws every pixel itself rather than relying on native OS components, giving developers full control over design. It uses the engine named **Skia**
+|
+|
+**
+Performance
+**
+|
+ Near-native performance thanks to AOT compilation and Flutter's own rendering engine (Impeller) 
+|
+
+---
