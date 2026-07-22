@@ -20,11 +20,11 @@ Mobile Platforms
       ↓
 Application Packages
       ↓
-Dart
+    Dart
       ↓
 Asynchronous Programming
       ↓
-Flutter
+   Flutter
       ↓
 Native vs Cross-Platform
 ```
