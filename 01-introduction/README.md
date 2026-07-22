@@ -30,3 +30,18 @@ Native vs Cross-Platform
 ```
 
 ---
+
+## 📚 What You'll Learn
+
+| # | Topic | Description |
+|---|-------|-------------|
+| 01 | [Introduction to Android](./01-introduction-to-android.md) | Understand Android, its open-source foundation, manufacturers, and API levels |
+| 02 | [Introduction to iOS](./02-introduction-to-ios.md) | Explore Apple's proprietary ecosystem, Xcode, macOS requirements, and iOS development |
+| 03 | [Native vs Cross-Platform Development](./03-native-vs-cross-platform.md) | Understand the differences between platform-specific and shared-codebase development |
+| 04 | [Introduction to Dart](./04-introduction-to-dart.md) | Learn about Dart's history, purpose, features, and role in Flutter development |
+| 05 | [Introduction to Flutter](./05-introduction-to-flutter.md) | Understand what Flutter is, how it works, and its relationship with Dart |
+| 06 | [Asynchronous Programming](./06-asynchronous-programming-overview.md) | Learn why asynchronous programming is important for responsive applications |
+| 07 | [Introduction to APK](./07-introduction-to-apk.md) | Understand Android application packages and the difference between APK and AAB |
+| 08 | [Introduction to IPA](./08-introduction-to-ipa.md) | Understand the iOS application package format and its role in app distribution |
+
+---
