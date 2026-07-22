@@ -85,3 +85,21 @@ personal revision and easier understanding.
 > **Learn → Understand → Explain → Document → Revise**
 
 ---
+
+## 📂 Section Structure
+
+```text
+01-introduction/
+│
+├── 01-introduction-to-android.md
+├── 02-introduction-to-ios.md
+├── 03-native-vs-cross-platform.md
+├── 04-introduction-to-dart.md
+├── 05-introduction-to-flutter.md
+├── 06-asynchronous-programming-overview.md
+├── 07-introduction-to-apk.md
+├── 08-introduction-to-ipa.md
+└── README.md
+```
+
+---
