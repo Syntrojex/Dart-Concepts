@@ -12,3 +12,21 @@ The goal is simple: understand the **"why" and "where"** before learning
 the **"how"**.
 
 ---
+
+## 🗺️ Learning Path
+
+```text
+Mobile Platforms
+      ↓
+Application Packages
+      ↓
+Dart
+      ↓
+Asynchronous Programming
+      ↓
+Flutter
+      ↓
+Native vs Cross-Platform
+```
+
+---
