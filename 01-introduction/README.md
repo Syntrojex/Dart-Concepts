@@ -71,3 +71,17 @@ Dart → Flutter → Mobile Application Development
 ```
 
 ---
+
+## 🧠 Learning Approach
+
+This repository is built as a personal learning and revision platform.
+
+Each concept is studied, understood, and then explained in my own words
+to make the material easier to revisit later.
+
+Where helpful, concepts are also documented in **Roman Urdu** for
+personal revision and easier understanding.
+
+> **Learn → Understand → Explain → Document → Revise**
+
+---
