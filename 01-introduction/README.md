@@ -104,7 +104,7 @@ personal revision and easier understanding.
 
 ---
 
-⬅️ **[Back to Dart-Concepts Home](../README.md)** &nbsp;|&nbsp; ➡️ **Next: [Environment](../02-environment/)**
+⬅️ **[Repository Home](https://github.com/Syntrojex/Dart-Concepts)** &nbsp;|&nbsp; ➡️ **Next: [Dart Ecosystem](../02-dart-ecosystem/)**
 
 ---
 
