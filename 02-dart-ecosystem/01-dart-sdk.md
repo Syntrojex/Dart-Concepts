@@ -84,3 +84,34 @@ Dart can also be used for server-side development with Dart packages and
 frameworks.
 
 ---
+
+## Checking Your Dart SDK Version
+
+Once Dart is available on your system, you can check the installed
+version using:
+
+```bash
+dart --version
+```
+
+Example:
+
+```text
+Dart SDK version: 3.x.x (stable)
+```
+
+If you are using Flutter, you can check the Flutter SDK and its bundled
+Dart SDK version using:
+
+```bash
+flutter --version
+```
+
+Example:
+
+```text
+Flutter 3.x.x • channel stable
+Dart 3.x.x
+```
+
+---
