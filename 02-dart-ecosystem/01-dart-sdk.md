@@ -32,3 +32,37 @@ to use Dart when building Flutter applications.
 | **Dart Documentation Tools** | Generate API documentation from Dart source code and documentation comments |
 
 ---
+
+## Dart SDK and Flutter
+
+If you are developing Flutter applications, you generally do **not need
+to install the Dart SDK separately**.
+
+The Flutter SDK includes a compatible Dart SDK, which allows Flutter
+projects to use Dart for application development.
+
+```text
+Flutter SDK
+│
+├── Flutter Framework
+├── Flutter Tools
+└── Dart SDK
+```
+
+You can use Dart directly through Flutter's bundled SDK:
+
+```bash
+dart --version
+```
+
+You can also check both the Flutter version and the bundled Dart version:
+
+```bash
+flutter --version
+```
+
+> The Dart version bundled with Flutter depends on the Flutter SDK version.
+> Therefore, the Dart version used by a Flutter project may differ from
+> the latest standalone Dart SDK release.
+
+---
