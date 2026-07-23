@@ -134,3 +134,18 @@ Dart 3.x.x
 > **Dart CLI Commands** section.
 
 ---
+
+## Dart SDK vs Flutter SDK
+
+| Aspect | Dart SDK | Flutter SDK |
+|--------|----------|-------------|
+| **Primary Purpose** | Develop Dart applications | Develop Flutter applications |
+| **Includes** | Dart tools, compiler, VM, libraries, and package tools | Flutter framework, Flutter tools, and a compatible Dart SDK |
+| **Can Run Pure Dart Code** | Yes | Yes, through its bundled Dart SDK |
+| **Can Build Flutter Apps** | No, by itself | Yes |
+| **Main Use Case** | Dart applications, scripts, packages, and server-side development | Cross-platform application development |
+
+> **Important:** The Flutter SDK includes the Dart SDK, but the Dart SDK
+> does not include the Flutter SDK.
+
+---
