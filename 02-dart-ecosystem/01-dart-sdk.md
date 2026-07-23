@@ -66,3 +66,21 @@ flutter --version
 > the latest standalone Dart SDK release.
 
 ---
+
+## When Do You Need the Standalone Dart SDK?
+
+You may install the standalone Dart SDK when you want to work with Dart
+without installing the Flutter SDK.
+
+For example:
+
+- Writing pure Dart programs and scripts
+- Building command-line applications
+- Developing Dart backend applications
+- Creating Dart packages and libraries
+- Using Dart tools independently of Flutter
+
+Dart can also be used for server-side development with Dart packages and
+frameworks.
+
+---
