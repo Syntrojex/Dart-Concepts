@@ -115,3 +115,22 @@ Dart 3.x.x
 ```
 
 ---
+
+## Common Dart SDK Commands
+
+| Command | What It Does |
+|---------|--------------|
+| `dart --version` | Displays the installed Dart SDK version |
+| `dart create` | Creates a new Dart project |
+| `dart run` | Runs a Dart program or project |
+| `dart compile` | Compiles Dart code for a specific target |
+| `dart pub get` | Gets the dependencies listed in `pubspec.yaml` |
+| `dart pub upgrade` | Resolves and upgrades dependencies within the allowed constraints |
+| `dart analyze` | Performs static analysis on Dart code |
+| `dart format` | Formats Dart source code |
+| `dart test` | Runs tests in a Dart project |
+
+> These commands will be explored in more detail in the
+> **Dart CLI Commands** section.
+
+---
