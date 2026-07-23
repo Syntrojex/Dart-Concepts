@@ -149,3 +149,13 @@ Dart 3.x.x
 > does not include the Flutter SDK.
 
 ---
+
+## Quick Recap
+
+> - The **Dart SDK** is the official toolkit for developing Dart applications.
+> - It includes tools for running, compiling, analyzing, formatting, and testing Dart code.
+> - It provides the **Dart VM**, compilers, package management tools, core libraries, and analyzer.
+> - The **Flutter SDK includes a compatible Dart SDK**.
+> - A separate Dart SDK installation is useful when working with pure Dart projects without Flutter.
+> - Use `dart --version` to check the Dart SDK version.
+> - Use `flutter --version` to check the Flutter SDK and its bundled Dart version.
