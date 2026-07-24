@@ -55,3 +55,25 @@ dart.dev
 ```
 
 ---
+
+## Dart API Reference
+
+Alongside the learning documentation, Dart provides a dedicated API
+reference:
+
+**[api.dart.dev](https://api.dart.dev)**
+
+The API reference contains detailed documentation for Dart's libraries,
+classes, methods, properties, and other APIs.
+
+It covers libraries such as:
+
+- `dart:core`
+- `dart:async`
+- `dart:collection`
+- `dart:convert`
+- `dart:math`
+- `dart:io`
+
+For example, if you want to know exactly what a class or method does,
+you can search for it in the API reference.
