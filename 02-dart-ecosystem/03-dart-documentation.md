@@ -1,4 +1,4 @@
- # Dart Documentation
+# Dart Documentation
 
 ## What is Dart Documentation?
 
@@ -6,7 +6,9 @@
 references, and API documentation that help developers learn and use the
 Dart programming language.
 
-The main documentation hub is: **[dart.dev](https://dart.dev)**
+The main documentation hub is:
+
+**[dart.dev](https://dart.dev)**
 
 It is the primary place to learn Dart concepts, explore language features,
 read official guides, and find information about Dart tools and packages.
@@ -25,7 +27,7 @@ serving a different purpose.
 | Section | What It Covers |
 |---------|----------------|
 | **Language Tour** | An example-based introduction to Dart syntax and core language features |
-| **Effective Dart** | Official style guidelines and best practices for writing consistent, maintainable code |
+| **Effective Dart** | Official style guidelines and best practices for writing consistent and maintainable code |
 | **Library Documentation** | An introduction to the major features of the Dart SDK's core libraries |
 | **Dart SDK** | Information about the SDK, its tools, and installation |
 | **Learn Dart** | Tutorials and resources for learning Dart |
@@ -140,29 +142,28 @@ The generated documentation can then be viewed through a web server.
 
 ---
 
-## Writing Documentation Comments
+## Documentation Comments
 
-Dart uses documentation comments to describe public classes, methods,
-functions, properties, and other APIs.
-
-The most common form is a triple-slash comment:
+Dart supports documentation comments using triple-slash comments:
 
 ```dart
 /// Calculates the area of a rectangle.
-///
-/// Takes [width] and [height] as parameters and returns
-/// their product.
 double calculateArea(double width, double height) {
   return width * height;
 }
 ```
 
-Documentation comments can include:
+Documentation comments can be used to describe:
 
-- Markdown formatting
-- Code examples
-- Links
-- References to other Dart APIs
+- Classes
+- Functions
+- Methods
+- Properties
+- Parameters
+- Other public APIs
+
+They can also support Markdown formatting and references to other Dart
+APIs.
 
 For example:
 
@@ -177,8 +178,12 @@ class User {
 }
 ```
 
-When `dart doc` runs, these comments can become part of the generated
-API documentation.
+These comments can be processed by `dart doc` to generate API
+documentation.
+
+> Documentation comments are introduced here because they are closely
+> connected to Dart's documentation system. Their syntax, formatting,
+> and detailed usage will be covered later in the **Basics** section.
 
 ---
 
@@ -292,3 +297,25 @@ Search pub.dev for additional packages if necessary
 
 ---
 
+## 📚 Further Learning
+
+Documentation comments were introduced here as part of the Dart
+documentation ecosystem.
+
+Their detailed syntax and usage will be covered later in the
+**Basics → Comments** section, along with other types of Dart comments.
+
+> 📖 **Next Related Topic:** Comments in the **Basics** section.
+
+---
+
+## The Most Important Habit
+
+You do not need to memorize every Dart class, method, or API.
+
+A good developer knows:
+
+> **What to remember — and where to look up what they don't remember.**
+
+The official documentation is one of the most important tools in the
+Dart ecosystem.
