@@ -16,3 +16,17 @@ read official guides, and find information about Dart tools and packages.
 > check.
 
 ---
+
+## Main Sections of dart.dev
+
+The official Dart documentation is organized into several areas, each
+serving a different purpose.
+
+| Section | What It Covers |
+|---------|----------------|
+| **Language Tour** | An example-based introduction to Dart syntax and core language features |
+| **Effective Dart** | Official style guidelines and best practices for writing consistent, maintainable code |
+| **Library Documentation** | An introduction to the major features of the Dart SDK's core libraries |
+| **Dart SDK** | Information about the SDK, its tools, and installation |
+| **Learn Dart** | Tutorials and resources for learning Dart |
+| **Packages** | Information about Dart's package ecosystem and package management |
