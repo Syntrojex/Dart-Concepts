@@ -208,3 +208,41 @@ how the Dart ecosystem is changing.
 > important new features and changes.
 
 ---
+
+## Where to Find Dart Packages — `pub.dev`
+
+**[pub.dev](https://pub.dev)** is the official package repository for
+Dart packages.
+
+Developers can use it to:
+
+- Search for packages
+- Read package documentation
+- Check package versions
+- View dependencies
+- Explore source code
+- Add packages to their projects
+
+Example:
+
+```yaml
+dependencies:
+  http: ^1.0.0
+```
+
+After adding a package to `pubspec.yaml`, you can retrieve it using:
+
+```bash
+dart pub get
+```
+
+For Flutter projects, the equivalent command is:
+
+```bash
+flutter pub get
+```
+
+Many packages on pub.dev also have automatically generated API
+documentation that can be accessed through their documentation pages.
+
+---
