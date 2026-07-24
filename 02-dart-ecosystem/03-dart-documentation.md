@@ -30,3 +30,28 @@ serving a different purpose.
 | **Dart SDK** | Information about the SDK, its tools, and installation |
 | **Learn Dart** | Tutorials and resources for learning Dart |
 | **Packages** | Information about Dart's package ecosystem and package management |
+
+A useful way to think about the main documentation is:
+
+```text
+dart.dev
+│
+├── Learn Dart
+│   ├── Language Tour
+│   ├── Tutorials
+│   └── Guides
+│
+├── Effective Dart
+│   └── Style and Best Practices
+│
+├── Dart SDK
+│   └── Tools and Installation
+│
+├── Library Documentation
+│   └── Core Libraries
+│
+└── Packages
+    └── Package Ecosystem
+```
+
+---
