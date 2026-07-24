@@ -280,3 +280,15 @@ Search pub.dev for additional packages if necessary
 ```
 
 ---
+
+## Quick Recap
+
+> - **dart.dev** → Learn Dart concepts, tools, guides, and best practices
+> - **api.dart.dev** → Look up detailed API documentation for Dart libraries
+> - **`dart doc`** → Generate API documentation from your own Dart code
+> - **Documentation comments (`///`)** → Add documentation to your Dart APIs
+> - **What's New** → Track updates to Dart documentation and the ecosystem
+> - **pub.dev** → Discover and use Dart packages and their documentation
+
+---
+
