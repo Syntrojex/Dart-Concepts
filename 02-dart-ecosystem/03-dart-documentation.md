@@ -246,3 +246,37 @@ Many packages on pub.dev also have automatically generated API
 documentation that can be accessed through their documentation pages.
 
 ---
+
+## A Practical Documentation Workflow
+
+When working with Dart, a useful documentation workflow is:
+
+```text
+Have a question
+      ↓
+Search dart.dev
+      ↓
+Learn the concept
+      ↓
+Check api.dart.dev
+      ↓
+Verify exact classes and methods
+      ↓
+Search pub.dev
+      ↓
+Find packages when needed
+```
+
+For example:
+
+```text
+"I need to work with JSON"
+          ↓
+Learn the concept on dart.dev
+          ↓
+Check dart:convert on api.dart.dev
+          ↓
+Search pub.dev for additional packages if necessary
+```
+
+---
