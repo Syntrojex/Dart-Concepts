@@ -77,3 +77,18 @@ It covers libraries such as:
 
 For example, if you want to know exactly what a class or method does,
 you can search for it in the API reference.
+
+### `dart.dev` vs `api.dart.dev`
+
+| Website | Main Purpose |
+|---------|--------------|
+| **dart.dev** | Learn concepts, language features, tools, and best practices |
+| **api.dart.dev** | Look up detailed API documentation for classes, methods, and libraries |
+
+> **Simple rule:**
+>
+> Use **dart.dev** to learn a concept.
+>
+> Use **api.dart.dev** to look up the exact API.
+
+---
