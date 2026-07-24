@@ -92,3 +92,50 @@ you can search for it in the API reference.
 > Use **api.dart.dev** to look up the exact API.
 
 ---
+
+## Generating Your Own Documentation with `dart doc`
+
+Dart provides the **`dart doc`** command for generating HTML API
+documentation from your own Dart code.
+
+This is especially useful when building:
+
+- Dart packages
+- Libraries
+- Reusable APIs
+- Public projects
+
+Before generating documentation for a package, run:
+
+```bash
+dart pub get
+dart analyze
+```
+
+Then generate the documentation:
+
+```bash
+dart doc .
+```
+
+A complete example:
+
+```bash
+cd my_package
+dart pub get
+dart analyze
+dart doc .
+```
+
+By default, the generated documentation is placed inside:
+
+```text
+doc/api/
+```
+
+The generated documentation can then be viewed through a web server.
+
+> `dart doc` generates reference documentation for public Dart APIs from
+> your source code and documentation comments.
+
+---
