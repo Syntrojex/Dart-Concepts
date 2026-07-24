@@ -181,3 +181,30 @@ When `dart doc` runs, these comments can become part of the generated
 API documentation.
 
 ---
+
+## Staying Updated — What's New
+
+Dart documentation continues to evolve as the Dart language and SDK
+develop.
+
+The official **What's New** page tracks important changes made to the
+Dart documentation and related sites:
+
+**[What's New](https://dart.dev/resources/whats-new)**
+
+It can include:
+
+- New documentation pages
+- New language features
+- Changes to existing guides
+- New tools and capabilities
+- Documentation improvements
+
+The What's New page is useful for developers who want to stay aware of
+how the Dart ecosystem is changing.
+
+> If you are learning Dart, you do not need to follow every update.
+> However, checking official updates occasionally can help you discover
+> important new features and changes.
+
+---
