@@ -297,15 +297,17 @@ Search pub.dev for additional packages if necessary
 
 ---
 
-## 📚 Further Learning
+---
 
-Documentation comments were introduced here as part of the Dart
-documentation ecosystem.
+## 📌 Further Learning
 
-Their detailed syntax and usage will be covered later in the
-**Basics → Comments** section, along with other types of Dart comments.
+Documentation comments were introduced here because they are an
+important part of Dart's documentation ecosystem.
 
-> 📖 **Next Related Topic:** Comments in the **Basics** section.
+The syntax and practical use of documentation comments will be covered
+in more detail later in the **Basics** section.
+
+> 📚 **Detailed Topic:** [Documentation Comments](../03-basics/02-documentation-comments.md)
 
 ---
 
