@@ -139,3 +139,45 @@ The generated documentation can then be viewed through a web server.
 > your source code and documentation comments.
 
 ---
+
+## Writing Documentation Comments
+
+Dart uses documentation comments to describe public classes, methods,
+functions, properties, and other APIs.
+
+The most common form is a triple-slash comment:
+
+```dart
+/// Calculates the area of a rectangle.
+///
+/// Takes [width] and [height] as parameters and returns
+/// their product.
+double calculateArea(double width, double height) {
+  return width * height;
+}
+```
+
+Documentation comments can include:
+
+- Markdown formatting
+- Code examples
+- Links
+- References to other Dart APIs
+
+For example:
+
+```dart
+/// Represents a user in the application.
+///
+/// The [name] parameter stores the user's display name.
+class User {
+  final String name;
+
+  User(this.name);
+}
+```
+
+When `dart doc` runs, these comments can become part of the generated
+API documentation.
+
+---
