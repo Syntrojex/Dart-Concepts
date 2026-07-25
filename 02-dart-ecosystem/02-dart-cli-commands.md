@@ -24,3 +24,19 @@ including:
 > the terminal.
 
 ---
+
+## 1. `dart run`
+
+Runs a Dart program from the terminal.
+
+```bash
+dart run main.dart
+```
+
+For a Dart project, you can also run the project's main executable:
+
+```bash
+dart run
+```
+
+---
