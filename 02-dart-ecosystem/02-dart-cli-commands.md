@@ -40,3 +40,20 @@ dart run
 ```
 
 ---
+
+## 2. `dart analyze`
+
+Analyzes Dart code for errors, warnings, and other diagnostics using
+static analysis.
+
+The analysis performed by `dart analyze` is the same type of analysis
+used by Dart-supported IDEs and code editors.
+
+```bash
+dart analyze
+```
+
+Running analysis before committing or sharing code helps detect problems
+early.
+
+---
