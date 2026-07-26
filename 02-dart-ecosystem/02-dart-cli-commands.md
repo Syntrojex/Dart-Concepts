@@ -77,3 +77,28 @@ dart format lib/main.dart
 ```
 
 ---
+
+## 4. `dart doc`
+
+Generates HTML API documentation from documentation comments in your
+Dart code.
+
+```bash
+dart doc .
+```
+
+Documentation comments are written using `///`.
+
+Example:
+
+```dart
+/// Calculates the area of a rectangle.
+double calculateArea(double width, double height) {
+  return width * height;
+}
+```
+
+The complete concept of Dart documentation and documentation comments is
+covered in the **Dart Documentation** section.
+
+---
