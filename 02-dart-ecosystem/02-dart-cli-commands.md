@@ -268,3 +268,30 @@ This can be useful when:
 - Diagnosing SDK-related issues
 
 ---
+
+## 13. `dart pub deps`
+
+Displays the dependency tree of your Dart project.
+
+```bash
+dart pub deps
+```
+
+This shows:
+
+- Direct dependencies
+- Transitive dependencies
+- The relationships between packages
+
+For example:
+
+```text
+my_project
+├── http
+│   └── ...
+└── path
+```
+
+This is useful for understanding which packages your project depends on.
+
+---
