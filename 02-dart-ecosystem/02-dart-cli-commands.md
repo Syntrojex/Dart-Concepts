@@ -315,3 +315,13 @@ This is useful for understanding which packages your project depends on.
 | `dart pub deps` | Display the project's dependency tree |
 
 ---
+
+## Quick Recap
+
+> - The `dart` CLI is the main command-line interface for the Dart SDK.
+> - It can run, analyze, format, test, compile, and document Dart code.
+> - Package management is handled through commands such as
+>   `dart pub get`, `dart pub upgrade`, and `dart pub outdated`.
+> - `dart fix` can apply automated fixes suggested by the analyzer.
+> - `dart info` helps diagnose Dart SDK and environment issues.
+> - `dart pub deps` displays the dependency tree of a Dart project.
