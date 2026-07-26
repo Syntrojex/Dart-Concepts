@@ -295,3 +295,23 @@ my_project
 This is useful for understanding which packages your project depends on.
 
 ---
+
+## Quick Reference Table
+
+| Command | Purpose |
+|---------|---------|
+| `dart run` | Run a Dart program |
+| `dart analyze` | Check code for errors and warnings |
+| `dart format` | Automatically format Dart code |
+| `dart doc` | Generate API documentation |
+| `dart create` | Create a new Dart project |
+| `dart compile` | Compile Dart code into another executable format |
+| `dart pub get` | Fetch and resolve project dependencies |
+| `dart pub upgrade` | Update dependencies within allowed constraints |
+| `dart pub outdated` | Check for outdated dependencies |
+| `dart test` | Run project tests |
+| `dart fix --apply` | Apply analyzer-suggested fixes |
+| `dart info` | Display Dart environment diagnostics |
+| `dart pub deps` | Display the project's dependency tree |
+
+---
