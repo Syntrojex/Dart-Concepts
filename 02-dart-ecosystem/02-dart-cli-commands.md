@@ -102,3 +102,25 @@ The complete concept of Dart documentation and documentation comments is
 covered in the **Dart Documentation** section.
 
 ---
+
+## 5. `dart create`
+
+Creates a new Dart project using one of Dart's built-in project
+templates.
+
+```bash
+dart create my_project
+```
+
+This creates a new project directory with the required project files.
+
+Dependencies are fetched automatically unless you use:
+
+```bash
+dart create --no-pub my_project
+```
+
+> Flutter has a similar command for creating Flutter projects:
+> `flutter create`.
+
+---
