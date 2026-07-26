@@ -179,3 +179,17 @@ resolves and fetches the required package.
 > `dart` command.
 
 ---
+
+## 8. `dart pub upgrade`
+
+Updates the project's dependencies to newer versions allowed by the
+version constraints in `pubspec.yaml`.
+
+```bash
+dart pub upgrade
+```
+
+For example, if your project allows compatible newer versions of a
+package, this command can update the resolved dependency versions.
+
+---
