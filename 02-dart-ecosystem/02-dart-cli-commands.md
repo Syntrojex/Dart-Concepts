@@ -210,3 +210,16 @@ This helps you identify:
 - Dependencies that may require major upgrades
 
 ---
+
+## 10. `dart test`
+
+Runs the tests in your Dart project.
+
+```bash
+dart test
+```
+
+Tests help verify that your code behaves as expected and continues to
+work correctly as the project grows.
+
+---
