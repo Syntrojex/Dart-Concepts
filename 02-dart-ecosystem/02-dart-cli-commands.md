@@ -57,3 +57,23 @@ Running analysis before committing or sharing code helps detect problems
 early.
 
 ---
+
+## 3. `dart format`
+
+Automatically formats Dart code according to the standard Dart formatting
+style.
+
+```bash
+dart format .
+```
+
+The `.` means that all Dart files in the current directory and its
+subdirectories will be formatted.
+
+You can also format a specific file:
+
+```bash
+dart format lib/main.dart
+```
+
+---
