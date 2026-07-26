@@ -150,3 +150,32 @@ choose.
 > are prepared for deployment.
 
 ---
+
+## 7. `dart pub get`
+
+Fetches and resolves the dependencies listed in your project's
+`pubspec.yaml` file.
+
+```bash
+dart pub get
+```
+
+For example, if your project has:
+
+```yaml
+dependencies:
+  http: ^1.0.0
+```
+
+Running:
+
+```bash
+dart pub get
+```
+
+resolves and fetches the required package.
+
+> `pub` is Dart's package management system and is accessed through the
+> `dart` command.
+
+---
