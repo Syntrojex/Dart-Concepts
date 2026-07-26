@@ -223,3 +223,30 @@ Tests help verify that your code behaves as expected and continues to
 work correctly as the project grows.
 
 ---
+
+## 11. `dart fix`
+
+Shows and applies automated fixes suggested by the Dart analyzer.
+
+To see the available fixes:
+
+```bash
+dart fix --dry-run
+```
+
+To apply the suggested fixes:
+
+```bash
+dart fix --apply
+```
+
+These fixes can help with issues such as:
+
+- Deprecated API usage
+- Analyzer diagnostics
+- Code improvements suggested by Dart
+
+> `dart fix` applies fixes for problems identified by the analyzer. It
+> is not a general-purpose code formatter.
+
+---
