@@ -250,3 +250,21 @@ These fixes can help with issues such as:
 > is not a general-purpose code formatter.
 
 ---
+
+## 12. `dart info`
+
+Displays diagnostic information about your Dart environment and SDK
+installation.
+
+```bash
+dart info
+```
+
+This can be useful when:
+
+- Troubleshooting Dart setup issues
+- Checking environment information
+- Reporting problems
+- Diagnosing SDK-related issues
+
+---
