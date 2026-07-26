@@ -193,3 +193,20 @@ For example, if your project allows compatible newer versions of a
 package, this command can update the resolved dependency versions.
 
 ---
+
+## 9. `dart pub outdated`
+
+Shows which dependencies have newer versions available.
+
+```bash
+dart pub outdated
+```
+
+This helps you identify:
+
+- Current dependency versions
+- Upgradeable versions
+- Latest available versions
+- Dependencies that may require major upgrades
+
+---
