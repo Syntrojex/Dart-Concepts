@@ -124,3 +124,29 @@ dart create --no-pub my_project
 > `flutter create`.
 
 ---
+
+## 6. `dart compile`
+
+Compiles Dart code into another executable format.
+
+For example, you can compile a Dart program into a native executable:
+
+```bash
+dart compile exe bin/main.dart -o myapp.exe
+```
+
+The generated executable can run directly on the target platform.
+
+Other compilation targets include:
+
+- Native executables
+- JavaScript
+- WebAssembly
+
+The exact output depends on the compilation command and target you
+choose.
+
+> Dart compilation is also an important part of how Dart applications
+> are prepared for deployment.
+
+---
