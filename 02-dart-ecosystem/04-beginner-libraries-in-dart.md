@@ -46,3 +46,27 @@ It provides commonly used types, classes, and functions such as:
 - `Set`
 - `Object`
 - `print()`
+
+### Special Note
+
+The `dart:core` library is automatically imported into every Dart file.
+
+Therefore, you normally do not need to write this manually:
+
+```dart
+import 'dart:core';
+```
+
+For example, this code works without explicitly importing `dart:core`:
+
+```dart
+void main() {
+  String name = 'Mustafa';
+  print(name);
+}
+```
+
+> `dart:core` is the foundation of the Dart language and is available
+> automatically in every Dart program.
+
+---
