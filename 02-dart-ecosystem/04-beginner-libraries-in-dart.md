@@ -227,4 +227,8 @@ For example, it cannot be used in Dart web applications because web
 applications run inside a browser environment with different security
 restrictions.
 
+> `dart:io` is mainly intended for native Dart applications, such as
+> command-line tools, server-side applications, and desktop or mobile
+> applications.
+
 ---
