@@ -112,3 +112,57 @@ Commonly used features include:
 | `pi` | Mathematical value of π |
 
 ---
+
+### 3. `dart:convert`
+
+```dart
+import 'dart:convert';
+```
+
+The `dart:convert` library provides tools for converting data between
+different formats.
+
+It is especially commonly used for working with **JSON data** from APIs.
+
+Example:
+
+```dart
+import 'dart:convert';
+
+void main() {
+  String jsonData = '{"name": "Mustafa", "age": 20}';
+
+  Map<String, dynamic> user = jsonDecode(jsonData);
+
+  print(user['name']);
+}
+```
+
+You can also convert Dart objects into JSON-compatible strings:
+
+```dart
+import 'dart:convert';
+
+void main() {
+  Map<String, dynamic> user = {
+    'name': 'Mustafa',
+    'age': 20,
+  };
+
+  String jsonData = jsonEncode(user);
+
+  print(jsonData);
+}
+```
+
+Commonly used functions include:
+
+| Function | Purpose |
+|----------|---------|
+| `jsonDecode()` | Convert JSON text into Dart objects |
+| `jsonEncode()` | Convert Dart objects into JSON text |
+
+> `dart:convert` is commonly used when communicating with APIs and
+> processing structured data.
+
+---
