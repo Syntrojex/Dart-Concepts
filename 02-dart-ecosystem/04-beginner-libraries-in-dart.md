@@ -23,3 +23,26 @@ libraries provide functionality for common tasks such as:
 - Date and time operations
 
 ---
+
+## Essential Beginner Libraries
+
+### 1. `dart:core`
+
+```dart
+import 'dart:core';
+```
+
+The `dart:core` library contains the fundamental building blocks of the
+Dart language.
+
+It provides commonly used types, classes, and functions such as:
+
+- `int`
+- `double`
+- `String`
+- `bool`
+- `List`
+- `Map`
+- `Set`
+- `Object`
+- `print()`
