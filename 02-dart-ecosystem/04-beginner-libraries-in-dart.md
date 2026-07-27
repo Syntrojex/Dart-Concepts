@@ -166,3 +166,65 @@ Commonly used functions include:
 > processing structured data.
 
 ---
+
+### 4. `dart:io`
+
+```dart
+import 'dart:io';
+```
+
+The `dart:io` library provides APIs for interacting with the operating
+system and the input/output system.
+
+It can be used for:
+
+- Reading files
+- Writing files
+- Working with directories
+- Console input and output
+- Sockets
+- Other operating-system-level functionality
+
+Example:
+
+```dart
+import 'dart:io';
+
+void main() {
+  stdout.write('Enter your name: ');
+
+  String? name = stdin.readLineSync();
+
+  print('Hello, $name!');
+}
+```
+
+It can also be used for file handling:
+
+```dart
+import 'dart:io';
+
+void main() {
+  File file = File('example.txt');
+
+  file.writeAsStringSync('Hello from Dart!');
+
+  String content = file.readAsStringSync();
+
+  print(content);
+}
+```
+
+> `dart:io` is commonly used in command-line tools, scripts, backend
+> applications, and Dart applications that need direct operating-system
+> access.
+
+### Important Note
+
+`dart:io` is not available in every Dart environment.
+
+For example, it cannot be used in Dart web applications because web
+applications run inside a browser environment with different security
+restrictions.
+
+---
