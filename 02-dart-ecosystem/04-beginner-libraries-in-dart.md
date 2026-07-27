@@ -70,3 +70,45 @@ void main() {
 > automatically in every Dart program.
 
 ---
+
+### 2. `dart:math`
+
+```dart
+import 'dart:math';
+```
+
+The `dart:math` library provides mathematical functions and constants.
+
+It is useful for:
+
+- Square roots
+- Powers
+- Trigonometric calculations
+- Mathematical constants
+- Random number generation
+
+Example:
+
+```dart
+import 'dart:math';
+
+void main() {
+  print(sqrt(25));
+
+  Random random = Random();
+  print(random.nextInt(100));
+}
+```
+
+Commonly used features include:
+
+| Feature | Purpose |
+|---------|---------|
+| `sqrt()` | Calculate square root |
+| `pow()` | Calculate powers |
+| `sin()` | Calculate sine |
+| `cos()` | Calculate cosine |
+| `Random()` | Generate random values |
+| `pi` | Mathematical value of π |
+
+---
