@@ -290,3 +290,19 @@ void main() {
 > in more detail in later sections.
 
 ---
+
+## Import Organization in Dart
+
+Dart allows imports to be written in different orders. However, Dart
+and Flutter projects commonly follow a consistent organization style
+to make code easier to read and maintain.
+
+A common convention is:
+
+```text
+1. Dart SDK libraries
+2. External packages
+3. Project files
+```
+
+---
