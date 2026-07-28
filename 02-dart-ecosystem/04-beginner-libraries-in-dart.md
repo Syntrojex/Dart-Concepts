@@ -232,3 +232,61 @@ restrictions.
 > applications.
 
 ---
+
+### 5. `dart:async`
+
+```dart
+import 'dart:async';
+```
+
+The `dart:async` library provides tools for asynchronous programming.
+
+It is commonly used with:
+
+- `Future`
+- `Stream`
+- `Timer`
+
+Example using `Future`:
+
+```dart
+import 'dart:async';
+
+void main() async {
+  await Future.delayed(Duration(seconds: 2));
+
+  print('Task completed!');
+}
+```
+
+Example using `Timer`:
+
+```dart
+import 'dart:async';
+
+void main() {
+  Timer(Duration(seconds: 2), () {
+    print('Timer finished!');
+  });
+}
+```
+
+Example using a `Stream`:
+
+```dart
+import 'dart:async';
+
+void main() {
+  Stream<int> numbers = Stream.fromIterable([1, 2, 3, 4, 5]);
+
+  numbers.listen((number) {
+    print(number);
+  });
+}
+```
+
+> Asynchronous programming is an important part of Dart and Flutter
+> development. `Future`, `Stream`, and `async`/`await` will be explored
+> in more detail in later sections.
+
+---
