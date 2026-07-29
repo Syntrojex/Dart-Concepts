@@ -343,3 +343,25 @@ import 'widgets/custom_button.dart';
 ```
 
 ---
+
+### Example — Organized Imports
+
+```dart
+// 1. Dart SDK libraries
+import 'dart:async';
+import 'dart:convert';
+
+// 2. External packages
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+
+// 3. Project files
+import 'models/user_model.dart';
+import 'services/api_service.dart';
+import 'widgets/custom_button.dart';
+```
+
+> Import organization is mainly a code organization convention. The Dart
+> compiler does not require imports to be written in this exact order.
+
+---
