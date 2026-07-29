@@ -365,3 +365,15 @@ import 'widgets/custom_button.dart';
 > compiler does not require imports to be written in this exact order.
 
 ---
+
+## Quick Reference Table
+
+| Library | Main Purpose |
+|---------|--------------|
+| `dart:core` | Fundamental Dart types and functions |
+| `dart:math` | Mathematical operations and random numbers |
+| `dart:convert` | JSON and data conversion |
+| `dart:io` | Files, directories, console I/O, and OS interaction |
+| `dart:async` | `Future`, `Stream`, and asynchronous operations |
+
+---
