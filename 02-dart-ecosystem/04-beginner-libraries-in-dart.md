@@ -331,3 +331,15 @@ import 'package:http/http.dart' as http;
 ```
 
 ---
+
+### 3. Project Files
+
+These are files from your own project:
+
+```dart
+import 'models/user_model.dart';
+import 'services/api_service.dart';
+import 'widgets/custom_button.dart';
+```
+
+---
