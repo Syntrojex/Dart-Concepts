@@ -306,3 +306,15 @@ A common convention is:
 ```
 
 ---
+
+### 1. Dart SDK Libraries
+
+These use the `dart:` prefix:
+
+```dart
+import 'dart:async';
+import 'dart:convert';
+import 'dart:math';
+```
+
+---
