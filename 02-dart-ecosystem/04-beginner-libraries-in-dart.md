@@ -318,3 +318,16 @@ import 'dart:math';
 ```
 
 ---
+
+### 2. External Packages
+
+These are packages added through `pubspec.yaml`.
+
+They use the `package:` prefix:
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+```
+
+---
