@@ -227,10 +227,6 @@ For example, it cannot be used in Dart web applications because web
 applications run inside a browser environment with different security
 restrictions.
 
-> `dart:io` is mainly intended for native Dart applications, such as
-> command-line tools, server-side applications, and desktop or mobile
-> applications.
-
 ---
 
 ### 5. `dart:async`
@@ -377,3 +373,16 @@ import 'widgets/custom_button.dart';
 | `dart:async` | `Future`, `Stream`, and asynchronous operations |
 
 ---
+
+## Quick Recap
+
+> - A **library** is a collection of reusable code.
+> - Libraries are imported using the `import` keyword.
+> - **`dart:core`** → fundamental Dart types and functions; automatically imported.
+> - **`dart:math`** → mathematical operations and random numbers.
+> - **`dart:convert`** → JSON and data conversion.
+> - **`dart:io`** → file handling, console I/O, and operating-system interaction.
+> - **`dart:async`** → `Future`, `Stream`, and asynchronous programming.
+> - A common import organization is:
+>
+>   `dart:` libraries → `package:` libraries → project files
