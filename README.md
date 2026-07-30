@@ -4,3 +4,4 @@
 3.basics
 comments 
 documentation comments
+variables print datatypes reserved words operators escape charcters
