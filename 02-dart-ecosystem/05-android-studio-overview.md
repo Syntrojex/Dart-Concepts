@@ -34,3 +34,12 @@ without switching between multiple programs.
 
 ---
 
+## Key Features
+
+### 🔍 Flutter Inspector
+
+Flutter Inspector lets you inspect the **widget tree** of a running
+application, making it much easier to understand layouts, debug UI
+issues, and identify widget-related problems.
+
+---
