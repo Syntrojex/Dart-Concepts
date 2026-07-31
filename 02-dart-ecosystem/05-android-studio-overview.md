@@ -79,3 +79,18 @@ development speed.
 much faster than rebuilding the entire project.
 
 ---
+
+### 📊 Performance Profiling
+
+Android Studio includes tools for monitoring application performance,
+including:
+
+- Widget rebuild tracking
+- CPU usage
+- Memory usage
+- Rendering performance
+
+These tools help identify bottlenecks and optimize Flutter
+applications.
+
+---
