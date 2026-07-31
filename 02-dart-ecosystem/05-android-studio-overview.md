@@ -57,3 +57,14 @@ showing:
 This helps catch problems early before running the application.
 
 ---
+
+### 📱 Android Emulator
+
+Android Studio includes a built-in **Android Emulator**, allowing you
+to test Flutter applications without needing a physical Android
+device.
+
+You can create, configure, and manage multiple virtual devices
+directly from the IDE.
+
+---
