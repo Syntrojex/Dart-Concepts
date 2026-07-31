@@ -140,3 +140,20 @@ will check your development environment and report any missing
 dependencies or configuration problems.
 
 ---
+
+## Android Studio vs VS Code — Quick Comparison
+
+| Aspect | Android Studio | VS Code |
+|--------|----------------|----------|
+| **Built By** | Google (based on IntelliJ IDEA) | Microsoft |
+| **Performance** | Heavier, uses more system resources | Lightweight and faster |
+| **Flutter Support** | Built-in after installing Flutter plugin | Extension-based |
+| **Flutter Inspector** | Fully integrated | Available through DevTools |
+| **Android Emulator** | Built-in management | Uses Android Studio's emulator |
+| **Best For** | Full-featured development, debugging, and profiling | Lightweight editing and faster workflow |
+
+> Both IDEs use the same Flutter SDK and Dart SDK. Your projects are
+> fully compatible between them, allowing you to switch at any time
+> without changing your code.
+
+---
