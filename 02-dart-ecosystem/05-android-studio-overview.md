@@ -171,3 +171,13 @@ Ultimately, both IDEs are excellent choices, and selecting one comes
 down to personal preference and workflow.
 
 ---
+
+## Further Learning
+
+This overview introduces Android Studio and its primary tools.
+
+Topics such as creating Flutter projects, configuring emulators,
+debugging applications, and using DevTools will be covered in later
+sections of this repository.
+
+---
