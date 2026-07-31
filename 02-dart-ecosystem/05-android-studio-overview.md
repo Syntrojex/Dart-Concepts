@@ -157,3 +157,17 @@ dependencies or configuration problems.
 > without changing your code.
 
 ---
+
+
+For beginners, **Android Studio** is generally the better choice
+because it includes everything needed to start Flutter development in
+one place.
+
+Many experienced Flutter developers prefer **VS Code** because it is
+lighter and starts faster, while still using the same Flutter and Dart
+toolchain underneath.
+
+Ultimately, both IDEs are excellent choices, and selecting one comes
+down to personal preference and workflow.
+
+---
