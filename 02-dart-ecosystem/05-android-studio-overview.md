@@ -68,3 +68,14 @@ You can create, configure, and manage multiple virtual devices
 directly from the IDE.
 
 ---
+
+### ⚡ Hot Reload & Hot Restart
+
+Flutter's **Hot Reload** instantly applies code changes while
+preserving the application's current state, greatly improving
+development speed.
+
+**Hot Restart** completely restarts the application while still being
+much faster than rebuilding the entire project.
+
+---
