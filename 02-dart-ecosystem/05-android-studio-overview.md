@@ -43,3 +43,17 @@ application, making it much easier to understand layouts, debug UI
 issues, and identify widget-related problems.
 
 ---
+
+### ✅ Dart Analysis
+
+Android Studio continuously analyzes your Dart code while you type,
+showing:
+
+- Errors
+- Warnings
+- Lint suggestions
+- Quick fixes
+
+This helps catch problems early before running the application.
+
+---
