@@ -107,3 +107,36 @@ applications.
 | **Profiler** | Monitor CPU, memory, and rendering performance |
 
 ---
+
+## Setting Up Android Studio for Flutter
+
+Android Studio can run Flutter applications on either a **physical
+Android device** or an **Android Emulator**.
+
+However, installing Android Studio alone is **not enough**.
+
+You also need to:
+
+- Install the **Flutter SDK**
+- Configure the Flutter SDK path
+- Install the required Android SDK components
+- Create or connect a target device
+
+If Flutter is already installed correctly, Android Studio usually
+detects the Flutter SDK automatically.
+
+> ⚠️ **Important:** Installing only the Flutter plugin is **not
+> enough**. The Flutter SDK must also be installed separately, and its
+> `bin` directory should be added to your system `PATH` if you want to
+> use Flutter commands from the terminal.
+
+If you experience setup issues, running:
+
+```bash
+flutter doctor
+```
+
+will check your development environment and report any missing
+dependencies or configuration problems.
+
+---
