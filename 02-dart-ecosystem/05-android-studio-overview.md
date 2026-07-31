@@ -94,3 +94,16 @@ These tools help identify bottlenecks and optimize Flutter
 applications.
 
 ---
+
+## Commonly Used Tools
+
+| Tool | Purpose |
+|------|---------|
+| **Flutter Inspector** | Inspect and debug the widget tree |
+| **Android Emulator** | Run Android apps without a physical device |
+| **Device Manager** | Create and manage virtual Android devices |
+| **Logcat** | View application logs and runtime messages |
+| **Terminal** | Run Flutter and Dart CLI commands |
+| **Profiler** | Monitor CPU, memory, and rendering performance |
+
+---
