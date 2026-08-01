@@ -49,3 +49,20 @@ Android Studio
 ```
 
 ---
+
+## 💡 Why This Section Matters
+
+Learning a programming language isn't just about syntax.
+
+Professional developers also need to understand:
+
+- the SDK that powers the language,
+- the tools used every day,
+- official documentation,
+- built-in libraries,
+- and the development environment.
+
+These are the foundations that make learning Dart easier and prepare
+you for Flutter development.
+
+---
