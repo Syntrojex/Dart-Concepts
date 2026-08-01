@@ -9,3 +9,15 @@ development environments, documentation, package management, and the
 resources you'll use throughout your Dart and Flutter journey.
 
 ---
+
+## 🎯 Learning Goals
+
+After completing this section, you will understand:
+
+- What the **Dart SDK** is
+- How the **Dart CLI** works
+- Common beginner **Dart libraries**
+- Where to find the official **Dart documentation**
+- How to use **Android Studio** for Dart and Flutter development
+
+---
