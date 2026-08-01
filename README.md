@@ -3,6 +3,6 @@
 2.ecosystem
 3.basics
 comments\
-documentation comments\
+documentation comments/
 variables\ print\ datatypes\ reserved words\ operators\ escape charcters\
 precedence\
