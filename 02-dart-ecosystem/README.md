@@ -79,8 +79,6 @@ fundamental concepts that every Dart developer should master.
 
 ---
 
----
-
 ⬅️ **Previous: [Introduction](../01-introduction/)** &nbsp;|&nbsp; ➡️ **Next: [Basics](../03-basics/)**
 
 ---
