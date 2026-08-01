@@ -33,3 +33,19 @@ After completing this section, you will understand:
 | 05 | [Android Studio Overview](./05-android-studio-overview.md) | Get familiar with Android Studio, Flutter tooling, debugging, emulators, and the overall development environment. |
 
 ---
+
+## 🗺️ Learning Flow
+
+```text
+Dart SDK
+      ↓
+Dart CLI Commands
+      ↓
+Beginner Libraries
+      ↓
+Dart Documentation
+      ↓
+Android Studio
+```
+
+---
