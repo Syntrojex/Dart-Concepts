@@ -104,7 +104,7 @@ personal revision and easier understanding.
 
 ---
 
-⬅️ **[Repository Home](https://github.com/Syntrojex/Dart-Concepts)** &nbsp;|&nbsp; ➡️ **Next: [Dart Ecosystem](../02-dart-ecosystem/)**
+⬅️ **[Repository Home](https://github.com/Syntrojex/Dart-Concepts)** &nbsp;|&nbsp; ➡️ **Next: [Dart Ecosystem](../2.Dart-Ecosystem/)**
 
 ---
 
