@@ -79,6 +79,16 @@ fundamental concepts that every Dart developer should master.
 
 ---
 
-⬅️ **Previous:** [Introduction](../01-introduction/)
+---
 
-➡️ **Next:** [Basics](../03-basics/)
+⬅️ **Previous: [Introduction](../01-introduction/)** &nbsp;|&nbsp; ➡️ **Next: [Basics](../03-basics/)**
+
+---
+
+<div align="center">
+
+### 🛠️ Building a Strong Dart Foundation
+
+*Understanding the tools, libraries, and development environment before writing code.*
+
+</div>
