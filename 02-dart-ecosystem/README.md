@@ -66,14 +66,17 @@ you for Flutter development.
 
 ---
 
-## 📌 What's Next?
+---
 
-Once you're comfortable with the Dart ecosystem, continue to the
-**Basics** section where you'll begin writing Dart code and learn the
-fundamental building blocks of the language.
+## 🚀 Continue Your Journey
 
-➡️ **Next:** [Basics](../03-basics/)
+Now that you're familiar with the tools and resources that make up the
+Dart ecosystem, you're ready to start writing Dart code.
+
+The next section introduces the core building blocks of the language,
+including variables, data types, operators, comments, and other
+fundamental concepts that every Dart developer should master.
 
 ---
 
-⬅️ **[Back to Repository Home](https://github.com/Syntrojex/Dart-Concepts)**
+⬅️ **[Back to Repository Home](https://github.com/Syntrojex/Dart-Concepts)** &nbsp;|&nbsp; ➡️ **Next: [Basics](../03-basics/)**
