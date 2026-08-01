@@ -92,7 +92,7 @@ moving on to advanced topics.
 
 ---
 
-⬅️ **Previous: [Introduction](../01-introduction/)** &nbsp;|&nbsp; ➡️ **Next: [Basics](../03-basics/)**
+⬅️ **Previous: [Introduction](../1.Introduction/)** &nbsp;|&nbsp; ➡️ **Next: [Basics](../03-basics/)**
 
 ---
 
