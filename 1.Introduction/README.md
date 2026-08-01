@@ -33,16 +33,16 @@ Native vs Cross-Platform
 
 ## 📚 What You'll Learn
 
-| # | Topic | Description |
-|---|-------|-------------|
-| 01 | [Android](./1.Android.md) | Understand Android, its open-source foundation, manufacturers, and API levels |
-| 02 | [iOS](./2.iOS.md) | Explore Apple's ecosystem, Xcode, macOS requirements, and iOS development |
-| 03 | [APK](./3.APK.md) | Learn how Android applications are packaged and distributed |
-| 04 | [IPA](./4.IPA.md) | Understand the iOS application package format and distribution process |
-| 05 | [Dart](./5.Dart.md) | Learn Dart's history, purpose, features, and role in Flutter development |
-| 06 | [Asynchronous Programming](./6.Asynchronous-Programming.md) | Learn why asynchronous programming is essential for responsive applications |
-| 07 | [Flutter](./7.Flutter.md) | Understand Flutter, its architecture, and how it uses Dart |
-| 08 | [Native vs Cross-Platform](./8.Native-vs-Cross-Platform.md) | Compare native and cross-platform development approaches |
+| # | Topic | Covers |
+|---|-------|--------|
+| 01 | [Android](./1.Android.md) | Android, open-source architecture, manufacturers, and API levels |
+| 02 | [iOS](./2.iOS.md) | Apple's ecosystem, Xcode, macOS requirements, and app development |
+| 03 | [APK](./3.APK.md) | Android application packages, APK, and AAB |
+| 04 | [IPA](./4.IPA.md) | iOS application packages and distribution |
+| 05 | [Dart](./5.Dart.md) | History, purpose, features, and language overview |
+| 06 | [Asynchronous Programming](./6.Asynchronous-Programming.md) | Async programming fundamentals and responsive applications |
+| 07 | [Flutter](./7.Flutter.md) | Flutter architecture, features, and ecosystem |
+| 08 | [Native vs Cross-Platform](./8.Native-vs-Cross-Platform.md) | Comparing development approaches |
 
 ---
 
