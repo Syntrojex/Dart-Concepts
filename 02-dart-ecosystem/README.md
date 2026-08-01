@@ -66,3 +66,15 @@ These are the foundations that make learning Dart easier and prepare
 you for Flutter development.
 
 ---
+
+## 📌 What's Next?
+
+Once you're comfortable with the Dart ecosystem, continue to the
+**Basics** section where you'll begin writing Dart code and learn the
+fundamental building blocks of the language.
+
+➡️ **Next:** [Basics](../03-basics/)
+
+---
+
+⬅️ **[Back to Repository Home](https://github.com/Syntrojex/Dart-Concepts)**
