@@ -79,4 +79,6 @@ fundamental concepts that every Dart developer should master.
 
 ---
 
-⬅️ **[Back to Repository Home](https://github.com/Syntrojex/Dart-Concepts)** &nbsp;|&nbsp; ➡️ **Next: [Basics](../03-basics/)**
+⬅️ **Previous:** [Introduction](../01-introduction/)
+
+➡️ **Next:** [Basics](../03-basics/)
