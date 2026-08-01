@@ -57,9 +57,8 @@ Learning a programming language isn't just about syntax.
 Professional developers also need to understand:
 
 - the SDK that powers the language,
-- the tools used every day,
-- official documentation,
-- built-in libraries,
+- the command-line tools used every day,
+- essential built-in libraries,
 - and the development environment.
 
 These are the foundations that make learning Dart easier and prepare
