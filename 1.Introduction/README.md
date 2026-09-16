@@ -35,7 +35,7 @@ Native vs Cross-Platform
 
 | # | Topic | Covers |
 |---|-------|--------|
-| 01 | [Android](./1.Android.md) | Android, open-source architecture, manufacturers, and API levels |
+| 01 | [Android](./1-Android.md) | Android, open-source architecture, manufacturers, and API levels |
 | 02 | [iOS](./2.iOS.md) | Apple's ecosystem, Xcode, macOS requirements, and app development |
 | 03 | [APK](./3.APK.md) | Android application packages, APK, and AAB |
 | 04 | [IPA](./4.IPA.md) | iOS application packages and distribution |
